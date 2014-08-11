@@ -10,7 +10,8 @@ angular.module('programApp')
 
           if('/#'+currentPath === element[0].attributes.href.value){
             element.addClass('active');
-          }else{
+          }
+          else{
             element.removeClass('active');
           }
         });

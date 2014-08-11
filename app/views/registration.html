@@ -5,15 +5,17 @@
       <h3>FIRST ANSWER</h3>
     </div>
     <div class="question">
-      <form>
-        <p>{{question.title}}</p>
-        <div class="option" ng-repeat="option in question.options">
-          <input type="radio" value="{{$index}}" name="option" id="op-{{$index}}">
+      <form name="question">
+        <p>{{getQuestion.title}}</p>
+        <div class="option" ng-repeat="option in getQuestion.options">
+
+          <input type="radio" value="{{$index}}" name="option" id="op-{{$index}}" ng-model="userAnswer.option" ng-required="true">
           <label for="op-{{$index}}">{{option}}</label>
         </div>
 
-        <button disabled>Send</button>
+        <button ng-disabled="!question.$valid" ng-click="validateAnswer(userAnswer.option)">Send</button>
       </form>
     </div>
+    <div ng-bind-html="userOk">YESSSS</div>
   </div>
 </div>

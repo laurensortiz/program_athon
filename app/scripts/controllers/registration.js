@@ -1,8 +1,11 @@
 'use strict';
 
 angular.module('programApp')
-  .controller('RegistrationCtrl', function ($scope) {
-
+  .controller('RegistrationCtrl', function ($scope,$rootScope,$location) {
+  //Validate if user answered correctly the answer
+  if($rootScope.userOk){
+    $location.url('/registration');
+  }
   var QUESTIONS = [
     {
       title: 'Question 1?',
@@ -11,7 +14,8 @@ angular.module('programApp')
         option2:'option2 for Question 1',
         option3:'option3 for Question 1',
         option4:'option4 for Question 1'
-      }
+      },
+      ca:1
       
     },
     {
@@ -22,7 +26,7 @@ angular.module('programApp')
         option3:'option3 for Question 2',
         option4:'option4 for Question 2'
       },
-      ca:'4'
+      ca:1
 
     },
     {
@@ -33,7 +37,7 @@ angular.module('programApp')
         option3:'option3 for Question 3',
         option4:'option4 for Question 3'
       },
-      ca:'3'
+      ca:1
     },
     {
       title: 'Question 4?',
@@ -43,7 +47,7 @@ angular.module('programApp')
         option3:'option3 for Question 4',
         option4:'option4 for Question 4'
       },
-      ca:'2'
+      ca:1
     },
     {
       title: 'Question 5?',
@@ -53,17 +57,30 @@ angular.module('programApp')
         option3:'option3 for Question 5',
         option4:'option4 for Question 5'
       },
-      ca:'2'
+      ca:1
     }
   ];
+
 
   var getRandom = function(){
     return parseInt(Math.random() * (5 - 1) + 1);
   };
 
-  $scope.question = QUESTIONS[getRandom()];
+  $scope.getQuestion = QUESTIONS[getRandom()];
 
-
+  $scope.userAnswer = [];
+  $scope.validateAnswer = function(userAnswer){
+    var userAnswer = parseInt(userAnswer)+ 1,
+        correctAnswer = $scope.getQuestion.ca;
+    if(userAnswer === correctAnswer){
+      $rootScope.userOk = true;
+      console.log("ooray")
+    }else{
+      $rootScope.userOk = false;
+      $scope.userAnswer = [];
+      $rootScope.modal = true;
+    }
+  };
 
 
 

@@ -99,3 +99,41 @@ nav{
 .col{
   width: 360px;
 }
+
+.modal{
+  width: 80%;
+  height: 80%;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,.8);
+  .close{
+    text-indent: -9999999px;
+    display: block;
+    float: right;
+    @include retina-sprite(close);
+  }
+  .detail{
+
+    color: #fff;
+    @include font-size(60,60,1);
+    text-transform: uppercase;
+    font-family: 'ub',sans-serif;
+    text-align: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 50px;
+    margin: auto;
+    width: 73%;
+    top: 0;
+    bottom: 0;
+    height: 37%;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+}
