@@ -1,0 +1,11 @@
+.tournament-description{
+  text-align: center;
+  @include font-size(18,30,1);
+
+  figure{
+    margin-bottom: 40px;
+  }
+  p{
+    margin-bottom: 30px;
+  }
+}

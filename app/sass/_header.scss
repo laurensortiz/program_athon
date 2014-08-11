@@ -1,0 +1,67 @@
+///////////////////////////////////////////////////
+// HEADER
+///////////////////////////////////////////////////
+header{
+  border-bottom: 3px solid #414041;
+  padding-top: 30px;
+  .content{
+    max-width: 985px;
+  }
+
+  .logo{
+    position: relative;
+    width: 390px;
+    margin: 0 auto;
+    span{
+      vertical-align: middle;
+    }
+
+    .title{
+      display: inline-block;
+      text-indent: -999999px;
+      margin: 25px 10px 0 0;
+      @include retina-sprite(logo);
+    }
+    .robot{
+      display: inline-block;
+      @include retina-sprite(robot);
+    }
+  }
+
+  nav{
+    background-color: #fff;
+    padding: 17px;
+    position: relative;
+    top:33px;
+    a{
+      padding: 0 17px;
+      @include font-size(20,29,1);
+      text-transform: uppercase;
+      position: relative;
+      &.active{
+        font-family: 'ub',sans-serif;
+        position: relative;
+        top: -2px;
+        &:hover{
+          color: $gray;
+          cursor: default;
+          pointer-events:none;
+        }
+        &:before,&:after{
+          content: "";
+          display: block;
+          position: absolute;
+          top: -11px;
+        }
+        &:before{
+          @include retina-sprite(curly_open);
+          left: 0;
+        }
+        &:after{
+          @include retina-sprite(curly_close);
+          right: 0;
+        }
+      }
+    }
+  }
+}

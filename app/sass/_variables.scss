@@ -1,0 +1,48 @@
+///////////////////////////////////////////////////
+// PROJECT VARIABLES
+///////////////////////////////////////////////////
+//
+// set the base location of the fonts for dotcom
+//
+//$base-font-url: "http://www.radioshack.com/graphics/uc/rsk/USContent/HTML/Images/fonts/";
+
+$base-font-url: "fonts/";
+
+//
+// declares the rest of the font stack
+// usage:
+// selector {
+//  font-family: @font-Reg, @font-stack;
+// }
+//
+$font-stack:"arial, helvetica, sans-serif";
+
+//
+// Sprite Image Path
+//
+/*
+$normalSizeSprite : "../images/main_sprite.png";
+$retinaSizeSprite : "../images/main_sprite@2x.png";
+*/
+$sprites: sprite-map("icons/*.png",$spacing: 20px);
+$sprites2x: sprite-map("iconsRetina/*.png",$spacing: 40px);
+//
+// Colors
+//
+$orange : #F16C24;
+$blue: #579FD2;
+$gray:#414041;
+//Font color
+
+
+//
+// Vendor
+//
+
+//Icons
+$sprites: sprite-map("icons/*.png");        // import 1x sprites
+$sprites2x: sprite-map("iconsRetina/*.png");   // import 2x sprites
+
+
+
+

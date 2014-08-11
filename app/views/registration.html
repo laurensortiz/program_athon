@@ -1,0 +1,19 @@
+<div class="registration">
+  <div class="content">
+    <div class="wait">
+      <span>Wait!</span>
+      <h3>FIRST ANSWER</h3>
+    </div>
+    <div class="question">
+      <form>
+        <p>{{question.title}}</p>
+        <div class="option" ng-repeat="option in question.options">
+          <input type="radio" value="{{$index}}" name="option" id="op-{{$index}}">
+          <label for="op-{{$index}}">{{option}}</label>
+        </div>
+
+        <button disabled>Send</button>
+      </form>
+    </div>
+  </div>
+</div>

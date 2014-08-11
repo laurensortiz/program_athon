@@ -1,0 +1,13 @@
+.terms-conditions{
+  text-align: center;
+  .term{
+    padding-bottom:20px;
+  }
+   h3{
+     font-family: 'ub',sans-serif;
+     @include font-size(20,30,1);
+   }
+  p{
+    @include font-size(18,30,1);
+  }
+}

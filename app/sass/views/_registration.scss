@@ -1,0 +1,42 @@
+.registration{
+  text-align: center;
+
+  .wait{
+    span{
+      font-family: 'ub',sans-serif;
+      @include font-size(38,33,60);
+      color: #fff;
+      text-transform: uppercase;
+      background-color: $orange;
+      padding: 9px 25px;
+      display: inline-block;
+    }
+    h3{
+      @include font-size(20,18,60);
+      color: $orange;
+      @include pseudoElement();
+      &:before{
+        @include retina-sprite(circles);
+        margin: 13px auto;
+      }
+      &:after{
+        @include retina-sprite(arrow_down_orange);
+        margin: 13px auto;
+      }
+    }
+  }
+
+  .question{
+    @include font-size(17,20,1);
+    .option{
+      padding-bottom: 20px;
+    }
+    p{
+      font-family: 'ub',sans-serif;
+      margin-bottom: 30px;
+    }
+    label{
+      display: block;
+    }
+  }
+}
