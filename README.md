@@ -4,6 +4,6 @@ program_athon
 Responsive Website
 
 ##Technology:
-Angular
+Angular<br>
 SASS / Compas
 
