@@ -3,8 +3,11 @@
 angular.module('programApp')
   .controller('RegistrationCtrl', function ($scope,$rootScope,$location) {
   //Validate if user answered correctly the answer
-  if($rootScope.userOk){
-    $location.url('/registration');
+    $location.url('/registration_form');
+  if(!$rootScope.userOk){
+    //$location.url('/registration');
+  }else{
+    $location.url('/registration_form');
   }
   var QUESTIONS = [
     {
@@ -74,7 +77,7 @@ angular.module('programApp')
         correctAnswer = $scope.getQuestion.ca;
     if(userAnswer === correctAnswer){
       $rootScope.userOk = true;
-      console.log("ooray")
+      $location.url('/registration_form');
     }else{
       $rootScope.userOk = false;
       $scope.userAnswer = [];
@@ -82,6 +85,14 @@ angular.module('programApp')
     }
   };
 
+  //Registration Form
+
+  $scope.groupMembers = [{name:''}];
+
+  $scope.addInput = function(){
+    console.log($scope.groupMembers.length+1)
+    $scope.groupMembers.push({name:''});
+  };
 
 
 });

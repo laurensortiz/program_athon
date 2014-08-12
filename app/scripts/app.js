@@ -25,6 +25,10 @@ angular
         templateUrl: 'views/registration.html',
         controller: 'RegistrationCtrl'
       })
+      .when('/registration_form', {
+        templateUrl: 'views/registration_form.html',
+        controller: 'RegistrationCtrl'
+      })
       .when('/terms_and_conditions', {
         templateUrl: 'views/terms_and_conditions.html',
         controller: 'MainCtrl'

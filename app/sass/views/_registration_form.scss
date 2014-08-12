@@ -1,0 +1,58 @@
+.registration-form{
+  text-align: center;
+   h1{
+     color: #fff;
+     @include font-size(29,26,700);
+     font-family: 'ul',sans-serif;
+     background-color: $gray;
+     padding: 10px 60px;
+     display: inline-block;
+   }
+  form{
+    text-align: left;
+    @include font-size(20,30,1);
+    padding: 35px 0;
+    div{
+      position: relative;
+      padding: 5px 0;
+    }
+    label{
+      font-family: 'ub',sans-serif;
+      text-transform: uppercase;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"]{
+      border: 0;
+
+      display: inline-block;
+      vertical-align: bottom;
+      border-bottom: 1px solid $gray;
+      font-family: 'ul', sans-serif;
+
+    }
+    ol{
+      margin: 0;
+      padding: 0;
+      li{
+        list-style: none;
+        padding-left: 30px;
+      }
+    }
+    .add{
+      font-size: .6em;
+      position: absolute;
+      right: 0;
+      bottom: 5px;
+    }
+    .submit{
+      text-align: right;
+      button{
+        font-size: 25px;
+      }
+
+    }
+
+  }
+}
