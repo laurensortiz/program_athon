@@ -3,15 +3,62 @@
 ///////////////////////////////////////////////////
 header{
   border-bottom: 3px solid #414041;
-  padding-top: 30px;
+  padding: 5px 13px;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: left;
+  z-index: 5;
+  @media (min-width: $screen-sm) {
+    text-align: center;
+    position: static;
+    padding-top: 30px;
+  }
+
+  .menu-mobile{
+    width: 46px;
+    padding: 8px;
+    float: right;
+    position: relative;
+    @media (min-width: $screen-sm) {
+      display: none;
+    }
+    span{
+      display: block;
+      width: 100%;
+      height: 3px;
+      margin-top: 5px;
+      background-color: $gray;
+    }
+    @include pseudoElement();
+    &:before, &:after{
+      position: absolute;
+      top: 2px;
+    }
+    &:before{
+      left: -6px;
+      @include retina-sprite(curly_open_m);
+    }
+    &:after{
+      right: -6px;
+      @include retina-sprite(curly_close_m);
+    }
+  }
+
   .content{
     max-width: 985px;
   }
 
   .logo{
     position: relative;
-    width: 390px;
-    margin: 0 auto;
+    display: inline-block;
+    margin-right: -46px;
+    @media (min-width: $screen-sm) {
+      width: 390px;
+      margin: 0 auto;
+    }
     span{
       vertical-align: middle;
     }
@@ -19,41 +66,107 @@ header{
     .title{
       display: inline-block;
       text-indent: -999999px;
-      margin: 25px 10px 0 0;
-      @include retina-sprite(logo);
+
+      margin: 7px 3px 0 0;
+      @include retina-sprite(logo_m);
+      @media (min-width: $screen-sm) {
+        margin: 25px 10px 0 0;
+        @include retina-sprite(logo);
+      }
     }
     .robot{
       display: inline-block;
-      @include retina-sprite(robot);
+      @include retina-sprite(robot_m);
+      @media (min-width: $screen-sm) {
+        @include retina-sprite(robot);
+        background: none;
+      }
+      .robot-life{
+        display: none;
+        @media (min-width: $screen-sm) {
+          display: inline-block;
+        }
+      }
     }
   }
 
   nav{
     background-color: #fff;
-    padding: 17px;
-    position: relative;
-    top:33px;
+
+    li{
+      width: 100%;
+      border-top: 2px solid #fcfcfc;
+      border-bottom: 1px solid #f1f1f1;
+      @media (min-width: $screen-sm) {
+        width: auto;
+        border: 0;
+      }
+    }
+
+    &.right{
+      @media (min-width: $screen-sm) {
+        display: block!important;
+        float: none;
+      }
+
+    }
+
+    @media (min-width: $screen-sm) {
+      display: block;
+      padding: 17px 0;
+      position: relative;
+      top:40px;
+    }
+
     a{
-      padding: 0 17px;
-      @include font-size(20,29,1);
+      padding: 14px;
+      display: block;
+      width: 100%;
+      @media (min-width: $screen-sm) {
+        padding: 0 14px;
+        font-size: 1.28em;
+      }
+      @media (min-width: $screen-md) {
+        @include font-size(20,29,1);
+      }
+      @media (min-width: $screen-lg) {
+        padding: 0 17px;
+      }
+
       text-transform: uppercase;
       position: relative;
       &.active{
         font-family: 'ub',sans-serif;
         position: relative;
         top: -2px;
-        &:hover{
+        background-color: $orange;
+        color: #fff;
+        @media (min-width: $screen-sm) {
           color: $gray;
+          background-color: transparent;
+        }
+
+        &:hover{
           cursor: default;
           pointer-events:none;
+          color: #fff;
+          @media (min-width: $screen-sm) {
+            color: $gray;
+
+          }
         }
         &:before,&:after{
+
           content: "";
-          display: block;
+          display: none;
           position: absolute;
-          top: -11px;
+          top: -13px;
+          @media (min-width: $screen-sm) {
+            display: block;
+          }
         }
         &:before{
+
           @include retina-sprite(curly_open);
           left: 0;
         }
@@ -64,4 +177,14 @@ header{
       }
     }
   }
+}
+//IE
+.lt-ie9{
+  .robot .robot-life{
+    display: none;
+  }
+  .robot{
+    @include retina-sprite(robot);
+  }
+
 }

@@ -1,13 +1,15 @@
 'use strict';
 
 angular.module('programApp')
-  .controller('RegistrationCtrl', function ($scope,$rootScope,$location) {
+  .controller('RegistrationCtrl', function ($scope,$rootScope,$location,$http) {
   //Validate if user answered correctly the answer
-    $location.url('/registration_form');
   if(!$rootScope.userOk){
-    //$location.url('/registration');
+    $location.url('/registration');
   }else{
     $location.url('/registration_form');
+  }
+  if($rootScope.userRegistrated === true){
+    $location.url('/');
   }
   var QUESTIONS = [
     {
@@ -87,11 +89,45 @@ angular.module('programApp')
 
   //Registration Form
 
-  $scope.groupMembers = [{name:''}];
+  $scope.groupMembers = [{name:''},{name:''}];
 
   $scope.addInput = function(){
-    console.log($scope.groupMembers.length+1)
     $scope.groupMembers.push({name:''});
+  };
+
+  //Save info
+  $scope.msgs = [];
+  $scope.errors = [];
+  $scope.sendInfo = function(){
+    $rootScope.loading = true;
+    $scope.msgs.splice(0,$scope.msgs.length);
+    $scope.errors.splice(0,$scope.errors.length);
+
+
+    $http.post('save.php',{
+      'group_name':$scope.groupName,
+      'group_leader':$scope.groupLeader,
+      'member_1':$scope.groupMembers['0'].name,
+      'member_2':($scope.groupMembers['1'])?$scope.groupMembers['1'].name:'',
+      'member_3':($scope.groupMembers['2'])?$scope.groupMembers['2'].name:'',
+      'member_4':($scope.groupMembers['3'])?$scope.groupMembers['3'].name:'',
+      'member_5':($scope.groupMembers['4'])?$scope.groupMembers['4'].name:'',
+      'group_leader_id':$scope.groupLeaderId,
+      'group_leader_email':$scope.groupLeaderEmail,
+      'group_leader_phone':$scope.groupLeaderPhone
+    }).success(function(data, status,headers,config){
+      $rootScope.loading = false;
+      if(data.msg != ''){
+        //$scope.msgs.push(data.msg);
+        $rootScope.userRegistrated = true;
+      }else{
+        $scope.errors.push(data.error);
+
+      }
+    }).error(function(data,status){
+
+      $scope.errors.push(status);
+    });
   };
 
 

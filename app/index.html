@@ -13,28 +13,51 @@
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
-    <!-- build:css({.tmp,app}) styles/main.css -->
+    <!-- build:css({app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="programApp" ng-controller="MainCtrl">
+  <body ng-app="programApp" ng-controller="MainCtrl" ng-cloak>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="wrapper" >
+    <div class="wrapper" ng-class="{'pageLoading':loading}">
       <header>
         <div class="content">
-          <h1 class="logo"><a href="/" title="Program Athom"><span class="title">Program Athom</span><span class="robot"></span></a></h1>
-          <nav>
+          <h1 class="logo"><a href="/" title="Program Athom"><span class="title">Program Athom</span><span class="robot">
+            <div class="robot-life animated " ng-class="{'isLoading  fadeInDownBig':loading}">
+            <div class="r-body">
+              <div class="head"></div>
+              <span class="center"></span>
+              <div class="r-hand-left"></div>
+              <div class="r-hand-right"></div>
+            </div>
+
+            <div class="r-leg-left">
+              <span class="light green"></span>
+              <span class="light yellow"></span>
+            </div>
+            <div class="r-leg-right">
+              <span class="light green"></span>
+              <span class="light yellow"></span>
+            </div>
+          </div></span></a></h1>
+          <a class="menu-mobile" id="menuMobile" href="#sidr">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+          <nav id="sidr" class="menu">
             <ol>
               <li><a menu-active title="" href="/#/">Home</a></li>
               <li><a menu-active title="" href="/#/question_and_answer">Q&amp;A</a></li>
               <li><a menu-active title="" href="/#/tournament_description">Tournament Description</a></li>
-              <li><a menu-active title="" href="/#/registration">Registration</a></li>
+              <li><a menu-active title="" href="/#/registration" ng-class="{'disabled':userRegistrated}">Registration</a></li>
               <li><a menu-active title="" href="/#/terms_and_conditions">Terms and Conditions</a></li>
             </ol>
           </nav>
+
         </div>
       </header>
       <div class="container" ng-view=""></div>
@@ -44,7 +67,29 @@
         </figure>
       </footer>
     </div>
+    <!-- Robot ====-->
+    <div class="robot-life">
+      <div class="r-body">
+        <div class="head"></div>
+        <span class="center"></span>
+        <div class="r-hand-left"></div>
+        <div class="r-hand-right"></div>
+      </div>
+
+      <div class="r-leg-left">
+        <span class="light green"></span>
+        <span class="light yellow"></span>
+      </div>
+      <div class="r-leg-right">
+        <span class="light green"></span>
+        <span class="light yellow"></span>
+      </div>
+    </div>
+    <!--==Robot ====-->
     <!-- MODAL ====-->
+
+    <div class="loader" ng-hide="pageReady"></div>
+
     <div class="modal" ng-show="modal">
       <a class="close" href="" title="Close" ng-click="closeModal()">Close</a>
       <p class="detail">LOREM IPSUM SORRY</p>
@@ -75,6 +120,8 @@
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="scripts/vendor/jquery.js"></script>
+    <script src="scripts/vendor/jquery.sidr.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

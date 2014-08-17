@@ -2,16 +2,22 @@
   padding-top: 55px;
   text-align: center;
   h1{
-    @include font-size(55,48,-20);
+    @include font-size(40,33,-20);
     color: $orange;
     margin-bottom: 14px;
+    @media (min-width: $screen-sm) {
+      @include font-size(55,48,-20);
+    }
   }
   h3{
-    @include font-size(44,39,700);
+    @include font-size(25,20,200);
     background-color: $orange;
     color: #fff;
     padding: 17px 50px;
     display: inline-block;
+    @media (min-width: $screen-sm) {
+      @include font-size(44,39,700);
+    }
   }
   .sponsored{
     text-indent: -9999999px;

@@ -1,37 +1,44 @@
 <div class="registration-form">
-  <div class="content">
+  <div class="content" ng-hide="userRegistrated">
     <h1>REGISTRATION</h1>
-    <form name="registrationForm">
+    <form name="registrationForm" >
+
       <div>
         <label>GROUP NAME:</label>
-        <input type="text" value="" name="group_name">
+        <input type="text" value="" name="group_name" ng-model="groupName" required>
       </div>
       <div>
         <label>FIRST AND LAST NAME OF GROUP LEADER:</label>
-        <input type="text" value="" name="group_leader">
+        <input type="text" value="" name="group_leader" ng-model="groupLeader" required>
       </div>
       <div>
         <label>GROUP MEMBERS: </label>
         <ol>
-          <li ng-repeat="member in groupMembers">FIRST AND LAST NAME #{{$index+1}}:<input ng-model="member.name" type="text" value="" name="group_member{{$index+1}}" ></li>
+          <li ng-repeat="member in groupMembers">FIRST AND LAST NAME #{{$index+1}}:<input class="group-member" ng-model="member.name" type="text" value="" name="group_member{{$index+1}}" required></li>
         </ol>
         <button class="add" ng-hide="groupMembers.length>4" ng-click="addInput()">add</button>
       </div>
       <div>
-        <label>LEADER’S TELEPHONE NUMBER:</label>
-        <input type="text" value="" name="group_leader_telephone">
+        <label>LEADER’S ID NUMBER:</label>
+        <input type="text" value="" name="group_leader_id" ng-model="groupLeaderId" >
       </div>
       <div>
         <label>LEADER’S E-MAIL:</label>
-        <input type="email" value="" name="group_leader_email">
+        <input type="email" value="" name="group_leader_email" ng-model="groupLeaderEmail" required>
       </div>
       <div>
-        <label>LEADER’S MOBILE NUMBER:</label>
-        <input type="text" value="" name="group_leader_mobile">
+        <label>LEADER’S PHONE NUMBER:</label>
+        <input type="text" value="" name="group_leader_phone" ng-model="groupLeaderPhone" required>
       </div>
       <div class="submit">
-        <button ng-disabled="registrationForm.$valid">Send</button>
+        <button ng-disabled="!registrationForm.$valid" ng-click="sendInfo()">Send</button>
+
       </div>
     </form>
+
+  </div>
+  <div class="register-ok" ng-show="userRegistrated" ng-class="{'animated flipInX':userRegistrated}">
+    <h4>THANK YOU!</h4>
+    <h5>{{groupName}}</h5>
   </div>
 </div>

@@ -1,7 +1,15 @@
 ///////////////////////////////////////////////////
 // GLOBAL
 ///////////////////////////////////////////////////
-
+.loader{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff url(../images/loader.gif) no-repeat center;
+  z-index: 50;
+  top: 0;
+  left: 0;
+}
 *,
 *:before,
 *:after {
@@ -20,12 +28,16 @@ body{
   font-size: 12px;
   font-family: 'ul', sans-serif;
   color: $gray;
+
 }
 .overflow{
   overflow: hidden;
 }
 .alpha0 {
   opacity: 0;
+}
+.hide{
+  display: none;
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'ub',sans-serif;
@@ -80,6 +92,7 @@ nav{
     background-color: $gray;
     cursor: default;
     pointer-event:none;
+    opacity: .5;
   }
 
 }
@@ -93,11 +106,17 @@ nav{
 }
 .container{
   overflow: hidden;
-  padding: 90px 15px 0;
+  padding: 80px 15px 0;
   min-height: 340px;
+  @media (min-width: $screen-sm) {
+    padding: 90px 15px 0;
+  }
 }
 .col{
-  width: 360px;
+
+  @media (min-width: $screen-sm) {
+    width: 360px;
+  }
 }
 
 .modal{
@@ -120,20 +139,162 @@ nav{
   .detail{
 
     color: #fff;
-    @include font-size(60,60,1);
+    @include font-size(20,20,1);
     text-transform: uppercase;
     font-family: 'ub',sans-serif;
     text-align: center;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
-    padding: 50px;
+    padding: 25px;
     margin: auto;
-    width: 73%;
+    width: 90%;
     top: 0;
     bottom: 0;
-    height: 37%;
+    height: 65%;
     position: absolute;
     left: 0;
     right: 0;
+    @media (min-width: $screen-sm) {
+      @include font-size(60,60,1);
+      padding: 50px;
+      width: 73%;
+      height: 37%;
+    }
   }
 }
+a.disabled{
+  pointer-events:none;
+  text-decoration: line-through;
+  color: #C6C6C6;
+
+}
+
+
+.robot-life{
+  width:146px;
+  height: 159px;
+  position: relative;
+  display: none;
+  z-index: 1;
+
+  & div{
+    position: absolute;
+
+  }
+  .r-body{
+    top: 33px;
+    left: 33px;
+    @include retina-sprite(g_robot);
+    -webkit-animation:r-body 3s linear forwards;
+    .center{
+      display: block;
+      width: 61px;
+      height: 61px;
+      position: absolute;
+      top: 21px;
+      left: 20px;
+      @include retina-sprite(g_robot_center);
+    }
+  }
+
+  .head{
+    @include retina-sprite(g_robot_head);
+    left: 20px;
+    //top: -20px;
+    top: 0;
+    z-index: -1;
+    -webkit-animation:r-head 2s linear forwards 3s;
+  }
+  .r-hand-left,.r-hand-right{
+    top: 17px;
+    z-index: -1;
+  }
+  .r-hand-left{
+    @include retina-sprite(g_robot_left_hand);
+    //left: -33px;
+    left: 0;
+    -webkit-animation:r-left-hand 3s linear forwards 5s;
+  }
+  .r-hand-right{
+    @include retina-sprite(g_robot_right_hand);
+    //right: -33px;
+    right: 0;
+    -webkit-animation:r-right-hand 3s linear forwards 5s;
+    //-webkit-animation:r-right-hand-move .5s linear 8s;
+
+
+  }
+  .r-leg-left,.r-leg-right{
+    z-index: -1;
+    bottom: 0;
+  }
+  .light{
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 4px;
+    border-radius: 4px;
+    &.green{
+      background-color: #97C940;
+    }
+    &.yellow{
+      background-color: #FFC82D;
+    }
+  }
+  .r-leg-left{
+    @include retina-sprite(g_robot_left_leg);
+    left: 33px;
+
+    .green{
+      right: 4px;
+      -webkit-animation:light-greenToYellow .5s infinite;
+    }
+    .yellow{
+      right: 10px;
+      -webkit-animation:light-yellowTogreen .5s infinite;
+    }
+  }
+  .r-leg-right{
+    @include retina-sprite(g_robot_right_leg);
+    right: 31px;
+
+    .green{
+      left: 4px;
+      -webkit-animation:light-greenToYellow .5s infinite;
+    }
+    .yellow{
+      left: 10px;
+      -webkit-animation:light-yellowTogreen .5s infinite;
+    }
+  }
+
+  &.isLoading{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block!important;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    .center{
+      background: $orange url(../images/r-loader.gif) no-repeat center;
+    }
+  }
+
+}
+.pageLoading{
+  .logo .title,nav, .container{
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+}
+
