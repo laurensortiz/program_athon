@@ -136,9 +136,9 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: '.tmp/styles/',
+          cwd: '<%= yeoman.app %>/styles/',
           src: '{,*/}*.css',
-          dest: '.tmp/styles/'
+          dest: '<%= yeoman.app %>/styles/'
         }]
       }
     },
@@ -160,14 +160,15 @@ module.exports = function (grunt) {
       options: {
         sassDir: '<%= yeoman.app %>/sass',
         cssDir: '<%= yeoman.app %>/styles',
+        //generatedImagesDir: '.tmp/images',
         generatedImagesDir: '<%= yeoman.app %>/images/',
         imagesDir: '<%= yeoman.app %>/images',
         javascriptsDir: '<%= yeoman.app %>/scripts',
         fontsDir: '<%= yeoman.app %>/styles/fonts',
         importPath: '<%= yeoman.app %>/bower_components',
         httpImagesPath: '<%= yeoman.app %>/images',
-        httpGeneratedImagesPath: '../images/',
-        httpFontsPath: 'styles/fonts',
+        httpGeneratedImagesPath: '../images',
+        httpFontsDir: 'styles/fonts',
         relativeAssets: false,
         assetCacheBuster: false,
         raw: 'Sass::Script::Number.precision = 10\n'
@@ -179,7 +180,7 @@ module.exports = function (grunt) {
       },
       server: {
         options: {
-          debugInfo: true
+          debugInfo: false
         }
       }
     },
@@ -229,7 +230,7 @@ module.exports = function (grunt) {
     // The following *-min tasks produce minified files in the dist folder
     cssmin: {
       options: {
-        root: '<%= yeoman.app %>'
+        root: '<%= yeoman.dist %>'
       }
     },
 
@@ -302,12 +303,13 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.app %>',
           dest: '<%= yeoman.dist %>',
           src: [
-            '*.{ico,png,txt}',
+            '*.{ico,png,txt,php}',
             '.htaccess',
             '*.html',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
-            'fonts/*'
+            'styles/*',
+            'styles/fonts/*'
           ]
         }, {
           expand: true,
@@ -319,7 +321,7 @@ module.exports = function (grunt) {
       styles: {
         expand: true,
         cwd: '<%= yeoman.app %>/styles',
-        dest: '.tmp/styles/',
+        dest: '<%= yeoman.dist %>/styles/',
         src: '{,*/}*.css'
       }
     },
@@ -415,7 +417,7 @@ module.exports = function (grunt) {
     'cdnify',
     'cssmin',
     'uglify',
-    'rev',
+    /*'rev',*/
     'usemin',
     'htmlmin'
   ]);

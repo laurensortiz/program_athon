@@ -12,7 +12,7 @@
         <input type="text" value="" name="group_leader" ng-model="groupLeader" required>
       </div>
       <div>
-        <label>GROUP MEMBERS: </label>
+        <label>GROUP MEMBERS:(at least 2 plus leader) </label>
         <ol>
           <li ng-repeat="member in groupMembers">FIRST AND LAST NAME #{{$index+1}}:<input class="group-member" ng-model="member.name" type="text" value="" name="group_member{{$index+1}}" required></li>
         </ol>

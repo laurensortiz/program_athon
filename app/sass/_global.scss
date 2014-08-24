@@ -39,6 +39,11 @@ body{
 .hide{
   display: none;
 }
+
+strong{
+  font-weight: normal;
+  font-family: 'ub',sans-serif;
+}
 h1,h2,h3,h4,h5,h6{
   font-family: 'ub',sans-serif;
   font-weight: normal;
@@ -96,18 +101,17 @@ nav{
   }
 
 }
-.wrapper{
 
-}
 .content{
   width: 100%;
   max-width: 830px;
   margin: 0 auto;
+
 }
 .container{
   overflow: hidden;
   padding: 80px 15px 0;
-  min-height: 340px;
+  min-height: 445px;
   @media (min-width: $screen-sm) {
     padding: 90px 15px 0;
   }
@@ -130,6 +134,8 @@ nav{
   bottom: 0;
   background: rgb(0,0,0);
   background: rgba(0,0,0,.8);
+  z-index: 10;
+  -webkit-transform: translateZ(0px);
   .close{
     text-indent: -9999999px;
     display: block;
@@ -298,3 +304,88 @@ a.disabled{
   }
 }
 
+.call-out{
+  position: absolute;
+  width: 70px;
+  float: left;
+  left: 0;
+  bottom: 0;
+  img{
+    display: block;
+  }
+  @media (min-width: $screen-sm) {
+    width: 106px;
+    position: fixed;
+
+  }
+
+}
+
+.content-hand{
+  margin: 0;
+
+  dt{
+    font-family: 'ub',sans-serif;
+    @include font-size(17,20,1);
+    margin-bottom: 5px;
+    position: relative;
+    @media (min-width: $screen-sm) {
+      margin-bottom: 20px;
+    }
+    @media (min-width: $screen-md) {
+      @include pseudoElement();
+      &:before{
+        position: absolute;
+        top: 15px;
+        width: 100%;
+        height: 18px;
+        background-color: $gray;
+      }
+      &:after{
+        position: absolute;
+        top: -20px;
+        @include retina-sprite(robot_hand);
+      }
+    }
+  }
+  dd{
+    @include font-size(13,17,1);
+    color: $orange;
+    margin:0 0  20px 0;
+    @media (min-width: $screen-sm) {
+      margin:0 0  80px 0;
+    }
+  }
+
+  &.right{
+    float: left;
+    @media (min-width: $screen-sm) {
+      float: right;
+      text-align: right;
+    }
+    @media (min-width: $screen-md) {
+      dt:before{
+        right: -128%;
+      }
+      dt:after{
+        @include retina-sprite(robot_hand_r);
+        right: -95px;
+      }
+    }
+
+  }
+  &.left{
+    @media (min-width: $screen-md) {
+      dt:before{
+        left: -128%;
+      }
+      dt:after{
+        @include retina-sprite(robot_hand);
+        left: -95px;
+
+      }
+    }
+
+  }
+
+}

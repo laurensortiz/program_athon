@@ -11,7 +11,7 @@ angular.module('programApp')
     $rootScope.loading = false;
     $rootScope.modal = false;
     if($rootScope.userRegistrated === true && $rootScope.userOk === true){
-      $rootScope.userRegistrated = true
+      $rootScope.userRegistrated = true;
     }
     $scope.closeModal = function(){
       $location.url('/');
@@ -21,5 +21,8 @@ angular.module('programApp')
     $('#menuMobile').sidr({
       side: 'right'
     });
+    $('.sidr a').on('click',function(){
+      $.sidr('close', 'sidr');
 
-});
+    });
+  });

@@ -3,28 +3,36 @@
 Project:
 Date: may 2014
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/icons\/\*\.png}line{font-family:\00003202}}
+
+/* line 226, icons/*.png */
+
 .icons-sprite {
-  background: url('../images/icons-s0e2f7a8aaf.png') no-repeat;
+  background: url('../images/icons-s6497a2430a.png') no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/iconsRetina\/\*\.png}line{font-family:\00003202}}
+/* line 226, iconsRetina/*.png */
+
 .iconsRetina-sprite {
-  background: url('../images/iconsRetina-s4b2326ad7b.png') no-repeat;
+  background: url('../images/iconsRetina-s4e913e90e8.png') no-repeat;
 }
 
 /*
 $normalSizeSprite : "../images/main_sprite.png";
 $retinaSizeSprite : "../images/main_sprite@2x.png";
 */
+
 /*! normalize.css v1.1.3 | MIT License | git.io/normalize */
+
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
+
 /**
  * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\0000322}}
+
+/* line 22, ../sass/_normalize.scss */
+
 article,
 aside,
 details,
@@ -43,7 +51,9 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\0000332}}
+
+/* line 32, ../sass/_normalize.scss */
+
 audio,
 canvas,
 video {
@@ -56,7 +66,9 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\0000343}}
+
+/* line 43, ../sass/_normalize.scss */
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -66,7 +78,9 @@ audio:not([controls]) {
  * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
  * Known issue: no IE 6 support.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\0000353}}
+
+/* line 53, ../sass/_normalize.scss */
+
 [hidden] {
   display: none;
 }
@@ -74,13 +88,16 @@ audio:not([controls]) {
 /* ==========================================================================
    Base
    ========================================================================== */
+
 /**
  * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
  *    `em` units.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\0000368}}
+
+/* line 68, ../sass/_normalize.scss */
+
 html {
   font-size: 100%;
   /* 1 */
@@ -94,7 +111,9 @@ html {
  * Address `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\0000383}}
+
+/* line 83, ../sass/_normalize.scss */
+
 html,
 button,
 input,
@@ -106,7 +125,9 @@ textarea {
 /**
  * Address margins handled incorrectly in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\0000391}}
+
+/* line 91, ../sass/_normalize.scss */
+
 body {
   margin: 0;
 }
@@ -114,10 +135,13 @@ body {
 /* ==========================================================================
    Links
    ========================================================================== */
+
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003103}}
+
+/* line 103, ../sass/_normalize.scss */
+
 a:focus {
   outline: thin dotted;
 }
@@ -125,7 +149,9 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003112}}
+
+/* line 112, ../sass/_normalize.scss */
+
 a:active,
 a:hover {
   outline: 0;
@@ -134,42 +160,50 @@ a:hover {
 /* ==========================================================================
    Typography
    ========================================================================== */
+
 /**
  * Address font sizes and margins set differently in IE 6/7.
  * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003126}}
+
+/* line 126, ../sass/_normalize.scss */
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003131}}
+/* line 131, ../sass/_normalize.scss */
+
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003136}}
+/* line 136, ../sass/_normalize.scss */
+
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003141}}
+/* line 141, ../sass/_normalize.scss */
+
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003146}}
+/* line 146, ../sass/_normalize.scss */
+
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003151}}
+/* line 151, ../sass/_normalize.scss */
+
 h6 {
   font-size: 0.67em;
   margin: 2.33em 0;
@@ -178,7 +212,9 @@ h6 {
 /**
  * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003160}}
+
+/* line 160, ../sass/_normalize.scss */
+
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -186,13 +222,16 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003169}}
+
+/* line 169, ../sass/_normalize.scss */
+
 b,
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003173}}
+/* line 173, ../sass/_normalize.scss */
+
 blockquote {
   margin: 1em 40px;
 }
@@ -200,7 +239,9 @@ blockquote {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003181}}
+
+/* line 181, ../sass/_normalize.scss */
+
 dfn {
   font-style: italic;
 }
@@ -209,7 +250,9 @@ dfn {
  * Address differences between Firefox and other browsers.
  * Known issue: no IE 6/7 normalization.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003190}}
+
+/* line 190, ../sass/_normalize.scss */
+
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -219,7 +262,9 @@ hr {
 /**
  * Address styling not present in IE 6/7/8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003200}}
+
+/* line 200, ../sass/_normalize.scss */
+
 mark {
   background: #ff0;
   color: #000;
@@ -228,7 +273,9 @@ mark {
 /**
  * Address margins set differently in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003210}}
+
+/* line 210, ../sass/_normalize.scss */
+
 p,
 pre {
   margin: 1em 0;
@@ -237,7 +284,9 @@ pre {
 /**
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003221}}
+
+/* line 221, ../sass/_normalize.scss */
+
 code,
 kbd,
 pre,
@@ -250,7 +299,9 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003231}}
+
+/* line 231, ../sass/_normalize.scss */
+
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -260,7 +311,9 @@ pre {
 /**
  * Address CSS quotes not supported in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003241}}
+
+/* line 241, ../sass/_normalize.scss */
+
 q {
   quotes: none;
 }
@@ -268,7 +321,9 @@ q {
 /**
  * Address `quotes` property not supported in Safari 4.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003250}}
+
+/* line 250, ../sass/_normalize.scss */
+
 q:before,
 q:after {
   content: '';
@@ -278,7 +333,9 @@ q:after {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003259}}
+
+/* line 259, ../sass/_normalize.scss */
+
 small {
   font-size: 80%;
 }
@@ -286,7 +343,9 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003268}}
+
+/* line 268, ../sass/_normalize.scss */
+
 sub,
 sup {
   font-size: 75%;
@@ -295,12 +354,14 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003275}}
+/* line 275, ../sass/_normalize.scss */
+
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003279}}
+/* line 279, ../sass/_normalize.scss */
+
 sub {
   bottom: -0.25em;
 }
@@ -308,10 +369,13 @@ sub {
 /* ==========================================================================
    Lists
    ========================================================================== */
+
 /**
  * Address margins set differently in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003294}}
+
+/* line 294, ../sass/_normalize.scss */
+
 dl,
 menu,
 ol,
@@ -319,7 +383,8 @@ ul {
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003298}}
+/* line 298, ../sass/_normalize.scss */
+
 dd {
   margin: 0 0 0 40px;
 }
@@ -327,7 +392,9 @@ dd {
 /**
  * Address paddings set differently in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003308}}
+
+/* line 308, ../sass/_normalize.scss */
+
 menu,
 ol,
 ul {
@@ -337,7 +404,9 @@ ul {
 /**
  * Correct list images handled incorrectly in IE 7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003317}}
+
+/* line 317, ../sass/_normalize.scss */
+
 nav ul,
 nav ol {
   list-style: none;
@@ -347,11 +416,14 @@ nav ol {
 /* ==========================================================================
    Embedded content
    ========================================================================== */
+
 /**
  * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improve image quality when scaled in IE 7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003331}}
+
+/* line 331, ../sass/_normalize.scss */
+
 img {
   border: 0;
   /* 1 */
@@ -362,7 +434,9 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003340}}
+
+/* line 340, ../sass/_normalize.scss */
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -370,10 +444,13 @@ svg:not(:root) {
 /* ==========================================================================
    Figures
    ========================================================================== */
+
 /**
  * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003352}}
+
+/* line 352, ../sass/_normalize.scss */
+
 figure {
   margin: 0;
 }
@@ -381,10 +458,13 @@ figure {
 /* ==========================================================================
    Forms
    ========================================================================== */
+
 /**
  * Correct margin displayed oddly in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003364}}
+
+/* line 364, ../sass/_normalize.scss */
+
 form {
   margin: 0;
 }
@@ -392,7 +472,9 @@ form {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003372}}
+
+/* line 372, ../sass/_normalize.scss */
+
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -404,7 +486,9 @@ fieldset {
  * 2. Correct text not wrapping in Firefox 3.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003384}}
+
+/* line 384, ../sass/_normalize.scss */
+
 legend {
   border: 0;
   /* 1 */
@@ -421,7 +505,9 @@ legend {
  *    and Chrome.
  * 3. Improve appearance and consistency in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003401}}
+
+/* line 401, ../sass/_normalize.scss */
+
 button,
 input,
 select,
@@ -440,7 +526,9 @@ textarea {
  * Address Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003414}}
+
+/* line 414, ../sass/_normalize.scss */
+
 button,
 input {
   line-height: normal;
@@ -452,7 +540,9 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003426}}
+
+/* line 426, ../sass/_normalize.scss */
+
 button,
 select {
   text-transform: none;
@@ -467,7 +557,9 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003443}}
+
+/* line 443, ../sass/_normalize.scss */
+
 button,
 html input[type="button"],
 input[type="reset"],
@@ -483,7 +575,9 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003454}}
+
+/* line 454, ../sass/_normalize.scss */
+
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -495,9 +589,12 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003466}}
+
+/* line 466, ../sass/_normalize.scss */
+
 input[type="checkbox"],
 input[type="radio"] {
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -513,12 +610,13 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003479}}
+
+/* line 479, ../sass/_normalize.scss */
+
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
 }
@@ -527,7 +625,9 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003492}}
+
+/* line 492, ../sass/_normalize.scss */
+
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -536,7 +636,9 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 3+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003501}}
+
+/* line 501, ../sass/_normalize.scss */
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -547,7 +649,9 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 6/7/8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003511}}
+
+/* line 511, ../sass/_normalize.scss */
+
 textarea {
   overflow: auto;
   /* 1 */
@@ -558,20 +662,18 @@ textarea {
 /* ==========================================================================
    Tables
    ========================================================================== */
+
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_normalize\.scss}line{font-family:\00003524}}
+
+/* line 524, ../sass/_normalize.scss */
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/*e.g
-@media (min-width: $screen-sm) {
-
-}
-*/
 @-webkit-keyframes light-greenToYellow {
   /* line 6, ../sass/_animations.scss */
   0% {
@@ -650,6 +752,7 @@ table {
 
   /* line 29, ../sass/_animations.scss */
   90% {
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
     right: -33px;
     top: 17px;
@@ -659,6 +762,7 @@ table {
   100% {
     right: -33px;
     top: -33px;
+    -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
   }
 }
@@ -667,23 +771,27 @@ table {
   /* line 33, ../sass/_animations.scss */
   0% {
     top: 0px;
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
   }
 
   /* line 34, ../sass/_animations.scss */
   50% {
     top: -33px;
+    -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
   }
 
   /* line 35, ../sass/_animations.scss */
   100% {
     top: 0px;
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_animations\.scss}line{font-family:\0000338}}
+/* line 38, ../sass/_animations.scss */
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -691,13 +799,15 @@ table {
   animation-fill-mode: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_animations\.scss}line{font-family:\0000345}}
+/* line 45, ../sass/_animations.scss */
+
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_animations\.scss}line{font-family:\0000350}}
+/* line 50, ../sass/_animations.scss */
+
 .animated.hinge {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -724,7 +834,6 @@ table {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -2000px, 0);
-    -ms-transform: translate3d(0, -2000px, 0);
     transform: translate3d(0, -2000px, 0);
   }
 
@@ -732,12 +841,12 @@ table {
   100% {
     opacity: 1;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_animations\.scss}line{font-family:\0000384}}
+/* line 84, ../sass/_animations.scss */
+
 .fadeInDownBig {
   -webkit-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
@@ -767,12 +876,12 @@ table {
   100% {
     opacity: 0;
     -webkit-transform: translate3d(0, -2000px, 0);
-    -ms-transform: translate3d(0, -2000px, 0);
     transform: translate3d(0, -2000px, 0);
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_animations\.scss}line{font-family:\00003113}}
+/* line 113, ../sass/_animations.scss */
+
 .fadeOutUpBig {
   -webkit-animation-name: fadeOutUpBig;
   animation-name: fadeOutUpBig;
@@ -783,7 +892,6 @@ table {
   0% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
     transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
     opacity: 0;
   }
@@ -792,7 +900,6 @@ table {
   40% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
     transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
   }
 
@@ -820,9 +927,7 @@ table {
   /* line 151, ../sass/_animations.scss */
   0% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    -ms-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
     transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
     opacity: 0;
   }
@@ -830,16 +935,13 @@ table {
   /* line 160, ../sass/_animations.scss */
   40% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    -ms-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
     transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
   }
 
   /* line 168, ../sass/_animations.scss */
   60% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-    -ms-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
     transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
     opacity: 1;
   }
@@ -847,38 +949,39 @@ table {
   /* line 175, ../sass/_animations.scss */
   80% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
-    -ms-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
     transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
   }
 
   /* line 181, ../sass/_animations.scss */
   100% {
     -webkit-transform: perspective(400px);
-    -ms-transform: perspective(400px);
     transform: perspective(400px);
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_animations\.scss}line{font-family:\00003188}}
+/* line 188, ../sass/_animations.scss */
+
 .flipInX {
   -webkit-backface-visibility: visible !important;
-  -ms-backface-visibility: visible !important;
   backface-visibility: visible !important;
   -webkit-animation-name: flipInX;
   animation-name: flipInX;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\000034}}
+/* line 4, ../sass/_helper.scss */
+
 .left {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\000037}}
+/* line 7, ../sass/_helper.scss */
+
 .right {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\0000311}}
+/* line 11, ../sass/_helper.scss */
+
 .icon {
   display: inline-block;
   margin-right: -3px;
@@ -886,7 +989,8 @@ table {
   text-indent: -9999999px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\0000318}}
+/* line 18, ../sass/_helper.scss */
+
 .ir {
   background-color: transparent;
   border: 0;
@@ -895,7 +999,8 @@ table {
   *text-indent: -9999px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\0000326}}
+/* line 26, ../sass/_helper.scss */
+
 .ir:before {
   content: "";
   display: block;
@@ -903,13 +1008,15 @@ table {
   height: 150%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\0000334}}
+/* line 34, ../sass/_helper.scss */
+
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\0000341}}
+/* line 41, ../sass/_helper.scss */
+
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -925,7 +1032,9 @@ table {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\0000358}}
+
+/* line 58, ../sass/_helper.scss */
+
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -936,7 +1045,8 @@ table {
   width: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\0000368}}
+/* line 68, ../sass/_helper.scss */
+
 .invisible {
   visibility: hidden;
 }
@@ -952,7 +1062,9 @@ table {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\0000385}}
+
+/* line 85, ../sass/_helper.scss */
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -961,7 +1073,8 @@ table {
   /* 2 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\0000390}}
+/* line 90, ../sass/_helper.scss */
+
 .clearfix:after {
   clear: both;
 }
@@ -970,7 +1083,9 @@ table {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_helper\.scss}line{font-family:\0000399}}
+
+/* line 99, ../sass/_helper.scss */
+
 .clearfix {
   clear: both;
   *zoom: 1;
@@ -990,7 +1105,8 @@ table {
   src: url("fonts/univers-light-normal-1361511935.eot") format("embedded-opentype"), url("fonts/univers-light-normal-1361511935.woff") format("woff"), url("fonts/univers-light-normal-1361511935.ttf") format("truetype"), url("fonts/univers-light-normal-1361511935.svg#HarvardRegular") format("svg");
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\000034}}
+/* line 4, ../sass/_global.scss */
+
 .loader {
   position: fixed;
   width: 100%;
@@ -1001,7 +1117,8 @@ table {
   left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000315}}
+/* line 15, ../sass/_global.scss */
+
 *,
 *:before,
 *:after {
@@ -1011,47 +1128,68 @@ table {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000321}}
+
+/* line 21, ../sass/_global.scss */
+
 *::-moz-focus-inner,
 *:before::-moz-focus-inner,
 *:after::-moz-focus-inner {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000325}}
+/* line 25, ../sass/_global.scss */
+
 :focus {
   outline: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000326}}
+/* line 26, ../sass/_global.scss */
+
 ::-moz-focus-inner {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000327}}
+/* line 27, ../sass/_global.scss */
+
 body {
   font-size: 12px;
   font-family: 'ul', sans-serif;
   color: #414041;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000333}}
+/* line 33, ../sass/_global.scss */
+
 .overflow {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000336}}
+/* line 36, ../sass/_global.scss */
+
 .alpha0 {
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000339}}
+/* line 39, ../sass/_global.scss */
+
 .hide {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000342}}
-h1, h2, h3, h4, h5, h6 {
+/* line 43, ../sass/_global.scss */
+
+strong {
+  font-weight: normal;
+  font-family: 'ub',sans-serif;
+}
+
+/* line 47, ../sass/_global.scss */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'ub',sans-serif;
   font-weight: normal;
   margin: 0;
@@ -1059,35 +1197,49 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000350}}
+/* line 55, ../sass/_global.scss */
+
 p {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000354}}
-nav ol, nav ul {
+/* line 59, ../sass/_global.scss */
+
+nav ol,
+nav ul {
   padding: 0;
   margin: 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000359}}
-nav ol li, nav ul li {
+
+/* line 64, ../sass/_global.scss */
+
+nav ol li,
+nav ul li {
   margin: 0;
   display: inline-block;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000363}}
-nav ol li a, nav ul li a {
+
+/* line 68, ../sass/_global.scss */
+
+nav ol li a,
+nav ul li a {
   text-decoration: none;
   color: #414041;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000367}}
-nav ol li a:hover, nav ul li a:hover {
+
+/* line 72, ../sass/_global.scss */
+
+nav ol li a:hover,
+nav ul li a:hover {
   color: #f16c24;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000374}}
-.btn, button {
+/* line 79, ../sass/_global.scss */
+
+.btn,
+button {
   border: 0;
   font-family: 'ub',sans-serif;
   color: #fff;
@@ -1100,46 +1252,58 @@ nav ol li a:hover, nav ul li a:hover {
   border-radius: 10px;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000387}}
-.btn:hover, button:hover {
+
+/* line 92, ../sass/_global.scss */
+
+.btn:hover,
+button:hover {
   background-color: #f16c24;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\0000391}}
-.btn[disabled], button[disabled] {
+
+/* line 96, ../sass/_global.scss */
+
+.btn[disabled],
+button[disabled] {
   background-color: #414041;
   cursor: default;
   pointer-event: none;
   opacity: .5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003102}}
+/* line 105, ../sass/_global.scss */
+
 .content {
   width: 100%;
   max-width: 830px;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003107}}
+/* line 111, ../sass/_global.scss */
+
 .container {
   overflow: hidden;
   padding: 80px 15px 0;
-  min-height: 340px;
+  min-height: 445px;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003107}}
+  /* line 111, ../sass/_global.scss */
+
   .container {
     padding: 90px 15px 0;
   }
 }
 
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003115}}
+  /* line 119, ../sass/_global.scss */
+
   .col {
     width: 360px;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003122}}
+/* line 126, ../sass/_global.scss */
+
 .modal {
   width: 80%;
   height: 80%;
@@ -1151,29 +1315,37 @@ nav ol li a:hover, nav ul li a:hover {
   bottom: 0;
   background: black;
   background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+  -webkit-transform: translateZ(0px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003133}}
+
+/* line 139, ../sass/_global.scss */
+
 .modal .close {
   text-indent: -9999999px;
   display: block;
   float: right;
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -628px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1062px;
   background-repeat: no-repeat;
   height: 36px;
   width: 34px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003133}}
+  /* line 139, ../sass/_global.scss */
+
   .modal .close {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -628px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1114px;
     height: 36px;
     width: 34px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003139}}
+
+/* line 145, ../sass/_global.scss */
+
 .modal .detail {
   color: #fff;
   font-size: 1.6666666667em;
@@ -1194,8 +1366,10 @@ nav ol li a:hover, nav ul li a:hover {
   left: 0;
   right: 0;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003139}}
+  /* line 145, ../sass/_global.scss */
+
   .modal .detail {
     font-size: 5em;
     letter-spacing: 0.001em;
@@ -1206,14 +1380,16 @@ nav ol li a:hover, nav ul li a:hover {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003165}}
+/* line 171, ../sass/_global.scss */
+
 a.disabled {
   pointer-events: none;
   text-decoration: line-through;
   color: #C6C6C6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003173}}
+/* line 179, ../sass/_global.scss */
+
 .robot-life {
   width: 146px;
   height: 159px;
@@ -1221,32 +1397,40 @@ a.disabled {
   display: none;
   z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003180}}
+
+/* line 186, ../sass/_global.scss */
+
 .robot-life div {
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003184}}
+
+/* line 190, ../sass/_global.scss */
+
 .robot-life .r-body {
   top: 33px;
   left: 33px;
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -776px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1300px;
   background-repeat: no-repeat;
   height: 82px;
   width: 82px;
   -webkit-animation: r-body 3s linear forwards;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003184}}
+  /* line 190, ../sass/_global.scss */
+
   .robot-life .r-body {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -776px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1262px;
     height: 82px;
     width: 82px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003189}}
+
+/* line 195, ../sass/_global.scss */
+
 .robot-life .r-body .center {
   display: block;
   width: 61px;
@@ -1254,26 +1438,30 @@ a.disabled {
   position: absolute;
   top: 21px;
   left: 20px;
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -562px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -996px;
   background-repeat: no-repeat;
   height: 36px;
   width: 42px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003189}}
+  /* line 195, ../sass/_global.scss */
+
   .robot-life .r-body .center {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -562px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -996px;
     height: 36px;
     width: 42px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003200}}
+
+/* line 206, ../sass/_global.scss */
+
 .robot-life .head {
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -1032px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1556px;
   background-repeat: no-repeat;
   height: 18px;
   width: 42px;
@@ -1282,67 +1470,85 @@ a.disabled {
   z-index: -1;
   -webkit-animation: r-head 2s linear forwards 3s;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003200}}
+  /* line 206, ../sass/_global.scss */
+
   .robot-life .head {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -985px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1509px;
     height: 18px;
     width: 42px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003208}}
-.robot-life .r-hand-left, .robot-life .r-hand-right {
+
+/* line 214, ../sass/_global.scss */
+
+.robot-life .r-hand-left,
+.robot-life .r-hand-right {
   top: 17px;
   z-index: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003212}}
+
+/* line 218, ../sass/_global.scss */
+
 .robot-life .r-hand-left {
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -664px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1150px;
   background-repeat: no-repeat;
   height: 56px;
   width: 30px;
   left: 0;
   -webkit-animation: r-left-hand 3s linear forwards 5s;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003212}}
+  /* line 218, ../sass/_global.scss */
+
   .robot-life .r-hand-left {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -664px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1150px;
     height: 56px;
     width: 30px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003218}}
+
+/* line 224, ../sass/_global.scss */
+
 .robot-life .r-hand-right {
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -720px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1206px;
   background-repeat: no-repeat;
   height: 56px;
   width: 30px;
   right: 0;
   -webkit-animation: r-right-hand 3s linear forwards 5s;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003218}}
+  /* line 224, ../sass/_global.scss */
+
   .robot-life .r-hand-right {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -720px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1206px;
     height: 56px;
     width: 30px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003227}}
-.robot-life .r-leg-left, .robot-life .r-leg-right {
+
+/* line 233, ../sass/_global.scss */
+
+.robot-life .r-leg-left,
+.robot-life .r-leg-right {
   z-index: -1;
   bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003231}}
+
+/* line 237, ../sass/_global.scss */
+
 .robot-life .light {
   display: block;
   width: 4px;
@@ -1352,73 +1558,95 @@ a.disabled {
   bottom: 4px;
   border-radius: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003239}}
+
+/* line 245, ../sass/_global.scss */
+
 .robot-life .light.green {
   background-color: #97C940;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003242}}
+
+/* line 248, ../sass/_global.scss */
+
 .robot-life .light.yellow {
   background-color: #FFC82D;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003246}}
+
+/* line 252, ../sass/_global.scss */
+
 .robot-life .r-leg-left {
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -1116px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1640px;
   background-repeat: no-repeat;
   height: 40px;
   width: 30px;
   left: 33px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003246}}
+  /* line 252, ../sass/_global.scss */
+
   .robot-life .r-leg-left {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -1116px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1640px;
     height: 40px;
     width: 30px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003250}}
+
+/* line 256, ../sass/_global.scss */
+
 .robot-life .r-leg-left .green {
   right: 4px;
   -webkit-animation: light-greenToYellow .5s infinite;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003254}}
+
+/* line 260, ../sass/_global.scss */
+
 .robot-life .r-leg-left .yellow {
   right: 10px;
   -webkit-animation: light-yellowTogreen .5s infinite;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003259}}
+
+/* line 265, ../sass/_global.scss */
+
 .robot-life .r-leg-right {
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -1076px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1600px;
   background-repeat: no-repeat;
   height: 40px;
   width: 30px;
   right: 31px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003259}}
+  /* line 265, ../sass/_global.scss */
+
   .robot-life .r-leg-right {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -1076px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1600px;
     height: 40px;
     width: 30px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003263}}
+
+/* line 269, ../sass/_global.scss */
+
 .robot-life .r-leg-right .green {
   left: 4px;
   -webkit-animation: light-greenToYellow .5s infinite;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003267}}
+
+/* line 273, ../sass/_global.scss */
+
 .robot-life .r-leg-right .yellow {
   left: 10px;
   -webkit-animation: light-yellowTogreen .5s infinite;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003273}}
+
+/* line 279, ../sass/_global.scss */
+
 .robot-life.isLoading {
   position: fixed;
   margin: auto;
@@ -1427,18 +1655,20 @@ a.disabled {
   bottom: 0;
   left: 0;
   display: block !important;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003285}}
+
+/* line 291, ../sass/_global.scss */
+
 .robot-life.isLoading .center {
   background: #f16c24 url(../images/r-loader.gif) no-repeat center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_global\.scss}line{font-family:\00003292}}
-.pageLoading .logo .title, .pageLoading nav, .pageLoading .container {
+/* line 298, ../sass/_global.scss */
+
+.pageLoading .logo .title,
+.pageLoading nav,
+.pageLoading .container {
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
@@ -1446,7 +1676,197 @@ a.disabled {
   filter: blur(5px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\000034}}
+/* line 307, ../sass/_global.scss */
+
+.call-out {
+  position: absolute;
+  width: 70px;
+  float: left;
+  left: 0;
+  bottom: 0;
+}
+
+/* line 313, ../sass/_global.scss */
+
+.call-out img {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  /* line 307, ../sass/_global.scss */
+
+  .call-out {
+    width: 106px;
+    position: fixed;
+  }
+}
+
+/* line 324, ../sass/_global.scss */
+
+.content-hand {
+  margin: 0;
+}
+
+/* line 327, ../sass/_global.scss */
+
+.content-hand dt {
+  font-family: 'ub',sans-serif;
+  font-size: 1.4166666667em;
+  letter-spacing: 0.001em;
+  line-height: 1.1764705882em;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  /* line 327, ../sass/_global.scss */
+
+  .content-hand dt {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 48, ../sass/_mixins.scss */
+
+  .content-hand dt:before,
+  .content-hand dt:after {
+    display: block;
+    content: "";
+  }
+
+  /* line 337, ../sass/_global.scss */
+
+  .content-hand dt:before {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    height: 18px;
+    background-color: #414041;
+  }
+
+  /* line 344, ../sass/_global.scss */
+
+  .content-hand dt:after {
+    position: absolute;
+    top: -20px;
+    background-image: url('../images/icons-s5f3d4e7328.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 85px;
+    width: 74px;
+  }
+}
+
+@media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 992px) and (min-device-pixel-ratio: 2) {
+  /* line 344, ../sass/_global.scss */
+
+  .content-hand dt:after {
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -478px;
+    height: 85px;
+    width: 74px;
+    background-size: 286px auto;
+  }
+}
+
+/* line 351, ../sass/_global.scss */
+
+.content-hand dd {
+  font-size: 1.0833333333em;
+  letter-spacing: 0.001em;
+  line-height: 1.3076923077em;
+  color: #f16c24;
+  margin: 0 0  20px 0;
+}
+
+@media (min-width: 768px) {
+  /* line 351, ../sass/_global.scss */
+
+  .content-hand dd {
+    margin: 0 0  80px 0;
+  }
+}
+
+/* line 360, ../sass/_global.scss */
+
+.content-hand.right {
+  float: left;
+}
+
+@media (min-width: 768px) {
+  /* line 360, ../sass/_global.scss */
+
+  .content-hand.right {
+    float: right;
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 367, ../sass/_global.scss */
+
+  .content-hand.right dt:before {
+    right: -128%;
+  }
+
+  /* line 370, ../sass/_global.scss */
+
+  .content-hand.right dt:after {
+    background-image: url('../images/icons-s5f3d4e7328.png');
+    background-position: 0 -85px;
+    background-repeat: no-repeat;
+    height: 85px;
+    width: 74px;
+    right: -95px;
+  }
+}
+
+@media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 992px) and (min-device-pixel-ratio: 2) {
+  /* line 370, ../sass/_global.scss */
+
+  .content-hand.right dt:after {
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -563px;
+    height: 85px;
+    width: 74px;
+    background-size: 286px auto;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 379, ../sass/_global.scss */
+
+  .content-hand.left dt:before {
+    left: -128%;
+  }
+
+  /* line 382, ../sass/_global.scss */
+
+  .content-hand.left dt:after {
+    background-image: url('../images/icons-s5f3d4e7328.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 85px;
+    width: 74px;
+    left: -95px;
+  }
+}
+
+@media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 992px) and (min-device-pixel-ratio: 2) {
+  /* line 382, ../sass/_global.scss */
+
+  .content-hand.left dt:after {
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -478px;
+    height: 85px;
+    width: 74px;
+    background-size: 286px auto;
+  }
+}
+
+/* line 4, ../sass/_header.scss */
+
 header {
   border-bottom: 3px solid #414041;
   padding: 5px 13px;
@@ -1458,222 +1878,291 @@ header {
   text-align: left;
   z-index: 5;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\000034}}
+  /* line 4, ../sass/_header.scss */
+
   header {
     text-align: center;
     position: static;
     padding-top: 30px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000320}}
+
+/* line 21, ../sass/_header.scss */
+
 header .menu-mobile {
   width: 46px;
   padding: 8px;
   float: right;
   position: relative;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000320}}
+  /* line 21, ../sass/_header.scss */
+
   header .menu-mobile {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000328}}
+
+/* line 29, ../sass/_header.scss */
+
 header .menu-mobile span {
   display: block;
   width: 100%;
   height: 3px;
   margin-top: 5px;
   background-color: #414041;
+  position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_mixins\.scss}line{font-family:\0000348}}
-header .menu-mobile:before, header .menu-mobile:after {
+
+/* line 48, ../sass/_mixins.scss */
+
+header .menu-mobile:before,
+header .menu-mobile:after {
   display: block;
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000336}}
-header .menu-mobile:before, header .menu-mobile:after {
+
+/* line 38, ../sass/_header.scss */
+
+header .menu-mobile:before,
+header .menu-mobile:after {
   position: absolute;
   top: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000340}}
+
+/* line 42, ../sass/_header.scss */
+
 header .menu-mobile:before {
   left: -6px;
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -858px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1382px;
   background-repeat: no-repeat;
   height: 40px;
   width: 12px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000340}}
+  /* line 42, ../sass/_header.scss */
+
   header .menu-mobile:before {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -898px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1422px;
     height: 40px;
     width: 12px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000344}}
+
+/* line 46, ../sass/_header.scss */
+
 header .menu-mobile:after {
   right: -6px;
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -898px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1422px;
   background-repeat: no-repeat;
   height: 40px;
   width: 12px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000344}}
+  /* line 46, ../sass/_header.scss */
+
   header .menu-mobile:after {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -858px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1382px;
     height: 40px;
     width: 12px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000350}}
+
+/* line 52, ../sass/_header.scss */
+
 header .content {
   max-width: 985px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000354}}
+
+/* line 56, ../sass/_header.scss */
+
 header .logo {
   position: relative;
   display: inline-block;
   margin-right: -46px;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000354}}
+  /* line 56, ../sass/_header.scss */
+
   header .logo {
     width: 390px;
     margin: 0 auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000362}}
+
+/* line 64, ../sass/_header.scss */
+
 header .logo span {
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000366}}
+
+/* line 68, ../sass/_header.scss */
+
 header .logo .title {
   display: inline-block;
   text-indent: -999999px;
   margin: 7px 3px 0 0;
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -532px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -966px;
   background-repeat: no-repeat;
   height: 30px;
   width: 58px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000366}}
+  /* line 68, ../sass/_header.scss */
+
   header .logo .title {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -532px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -966px;
     height: 30px;
     width: 58px;
     background-size: 286px auto;
   }
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000366}}
+  /* line 68, ../sass/_header.scss */
+
   header .logo .title {
     margin: 25px 10px 0 0;
-    background-image: url('../images/icons-s71e800ad0b.png');
-    background-position: 0 -170px;
+    background-image: url('../images/icons-s5f3d4e7328.png');
+    background-position: 0 -604px;
     background-repeat: no-repeat;
     height: 109px;
     width: 212px;
   }
 }
+
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 768px) and (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000366}}
+  /* line 68, ../sass/_header.scss */
+
   header .logo .title {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -214px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -648px;
     height: 109px;
     width: 212px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000377}}
+
+/* line 79, ../sass/_header.scss */
+
 header .logo .robot {
   display: inline-block;
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -488px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -922px;
   background-repeat: no-repeat;
   height: 44px;
   width: 40px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000377}}
+  /* line 79, ../sass/_header.scss */
+
   header .logo .robot {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 0;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -434px;
     height: 44px;
     width: 40px;
     background-size: 286px auto;
   }
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000377}}
+  /* line 79, ../sass/_header.scss */
+
   header .logo .robot {
-    background-image: url('../images/icons-s71e800ad0b.png');
-    background-position: 0 -329px;
+    background-image: url('../images/icons-s5f3d4e7328.png');
+    background-position: 0 -763px;
     background-repeat: no-repeat;
     height: 159px;
     width: 146px;
     background: none;
   }
 }
+
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 768px) and (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000377}}
+  /* line 79, ../sass/_header.scss */
+
   header .logo .robot {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -373px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -807px;
     height: 159px;
     width: 146px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000384}}
+
+/* line 86, ../sass/_header.scss */
+
 header .logo .robot .robot-life {
   display: none;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000384}}
+  /* line 86, ../sass/_header.scss */
+
   header .logo .robot .robot-life {
     display: inline-block;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000393}}
+
+/* line 95, ../sass/_header.scss */
+
 header nav {
   background-color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000396}}
+
+@media (min-width: 768px) {
+  /* line 95, ../sass/_header.scss */
+
+  header nav {
+    right: 0 !important;
+  }
+}
+
+/* line 100, ../sass/_header.scss */
+
 header nav li {
   width: 100%;
   border-top: 2px solid #fcfcfc;
   border-bottom: 1px solid #f1f1f1;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000396}}
+  /* line 100, ../sass/_header.scss */
+
   header nav li {
     width: auto;
     border: 0;
   }
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003106}}
+  /* line 110, ../sass/_header.scss */
+
   header nav.right {
     display: block !important;
     float: none;
   }
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\0000393}}
+  /* line 95, ../sass/_header.scss */
+
   header nav {
     display: block;
     padding: 17px 0;
@@ -1681,7 +2170,9 @@ header nav li {
     top: 40px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003121}}
+
+/* line 125, ../sass/_header.scss */
+
 header nav a {
   padding: 14px;
   display: block;
@@ -1689,28 +2180,36 @@ header nav a {
   text-transform: uppercase;
   position: relative;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003121}}
+  /* line 125, ../sass/_header.scss */
+
   header nav a {
     padding: 0 14px;
     font-size: 1.28em;
   }
 }
+
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003121}}
+  /* line 125, ../sass/_header.scss */
+
   header nav a {
     font-size: 1.6666666667em;
     letter-spacing: 0.001em;
     line-height: 1.45em;
   }
 }
+
 @media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003121}}
+  /* line 125, ../sass/_header.scss */
+
   header nav a {
     padding: 0 17px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003138}}
+
+/* line 142, ../sass/_header.scss */
+
 header nav a.active {
   font-family: 'ub',sans-serif;
   position: relative;
@@ -1718,115 +2217,150 @@ header nav a.active {
   background-color: #f16c24;
   color: #fff;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003138}}
+  /* line 142, ../sass/_header.scss */
+
   header nav a.active {
     color: #414041;
     background-color: transparent;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003149}}
+
+/* line 153, ../sass/_header.scss */
+
 header nav a.active:hover {
   cursor: default;
   pointer-events: none;
   color: #fff;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003149}}
+  /* line 153, ../sass/_header.scss */
+
   header nav a.active:hover {
     color: #414041;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003158}}
-header nav a.active:before, header nav a.active:after {
+
+/* line 162, ../sass/_header.scss */
+
+header nav a.active:before,
+header nav a.active:after {
   content: "";
   display: none;
   position: absolute;
-  top: -13px;
+  top: -9px;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003158}}
-  header nav a.active:before, header nav a.active:after {
+  /* line 162, ../sass/_header.scss */
+
+  header nav a.active:before,
+  header nav a.active:after {
     display: block;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003168}}
+
+/* line 172, ../sass/_header.scss */
+
 header nav a.active:before {
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -938px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1462px;
   background-repeat: no-repeat;
   height: 47px;
   width: 14px;
   left: 0;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003168}}
+  /* line 172, ../sass/_header.scss */
+
   header nav a.active:before {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -938px;
-    height: 47px;
-    width: 14px;
-    background-size: 286px auto;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003173}}
-header nav a.active:after {
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -985px;
-  background-repeat: no-repeat;
-  height: 47px;
-  width: 14px;
-  right: 0;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003173}}
-  header nav a.active:after {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -1003px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1462px;
     height: 47px;
     width: 14px;
     background-size: 286px auto;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003183}}
+/* line 177, ../sass/_header.scss */
+
+header nav a.active:after {
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1509px;
+  background-repeat: no-repeat;
+  height: 47px;
+  width: 14px;
+  right: 0;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 177, ../sass/_header.scss */
+
+  header nav a.active:after {
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1527px;
+    height: 47px;
+    width: 14px;
+    background-size: 286px auto;
+  }
+}
+
+/* line 186, ../sass/_header.scss */
+
+.sidr-open header .menu-mobile span {
+  background-color: #f16c24;
+}
+
+/* line 192, ../sass/_header.scss */
+
 .lt-ie9 .robot .robot-life {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003186}}
+
+/* line 195, ../sass/_header.scss */
+
 .lt-ie9 .robot {
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -329px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -763px;
   background-repeat: no-repeat;
   height: 159px;
   width: 146px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_header\.scss}line{font-family:\00003186}}
+  /* line 195, ../sass/_header.scss */
+
   .lt-ie9 .robot {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -373px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -807px;
     height: 159px;
     width: 146px;
     background-size: 286px auto;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_footer\.scss}line{font-family:\000034}}
+/* line 4, ../sass/_footer.scss */
+
 footer {
   position: relative;
   width: 100%;
   z-index: -1;
   margin-top: -20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_footer\.scss}line{font-family:\000039}}
+
+/* line 9, ../sass/_footer.scss */
+
 footer img {
   width: 100%;
   height: auto;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr {
     display: none;
     position: absolute;
@@ -1841,70 +2375,76 @@ footer img {
     font-size: 15px;
     background: #f8f8f8;
     color: #333;
-    -webkit-box-shadow: inset 0 0 5px 5px #ebebeb;
-    -moz-box-shadow: inset 0 0 5px 5px #ebebeb;
     box-shadow: inset 0 0 5px 5px #ebebeb;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr .sidr-inner {
     padding: 0 0 15px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr .sidr-inner > p {
     margin-left: 15px;
     margin-right: 15px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr.right {
     left: auto;
     right: -260px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr.left {
     left: -260px;
     right: auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
-  .sidr h1, .sidr h2, .sidr h3, .sidr h4, .sidr h5, .sidr h6 {
+  /* line 8, ../sass/_slideMenu.scss */
+
+  .sidr h1,
+  .sidr h2,
+  .sidr h3,
+  .sidr h4,
+  .sidr h5,
+  .sidr h6 {
     font-size: 11px;
     font-weight: normal;
     padding: 0 15px;
     margin: 0 0 5px;
     color: #333;
     line-height: 24px;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, white), color-stop(100%, #dfdfdf));
-    background-image: -webkit-linear-gradient(white, #dfdfdf);
-    background-image: -moz-linear-gradient(white, #dfdfdf);
-    background-image: -o-linear-gradient(white, #dfdfdf);
     background-image: linear-gradient(#ffffff, #dfdfdf);
-    -webkit-box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr p {
     font-size: 13px;
     margin: 0 0 12px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr p a {
     color: rgba(51, 51, 51, 0.9);
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr > p {
     margin-left: 15px;
     margin-right: 15px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr ul {
     display: block;
     margin: 0 0 15px;
@@ -1913,7 +2453,8 @@ footer img {
     border-bottom: 1px solid #fff;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr ul li {
     display: block;
     margin: 0;
@@ -1922,85 +2463,116 @@ footer img {
     border-bottom: 1px solid #dfdfdf;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
-  .sidr ul li:hover, .sidr ul li.active, .sidr ul li.sidr-class-active {
+  /* line 8, ../sass/_slideMenu.scss */
+
+  .sidr ul li:hover,
+  .sidr ul li.active,
+  .sidr ul li.sidr-class-active {
     border-top: none;
     line-height: 49px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
-  .sidr ul li:hover > a, .sidr ul li:hover > span, .sidr ul li.active > a, .sidr ul li.active > span, .sidr ul li.sidr-class-active > a, .sidr ul li.sidr-class-active > span {
-    -webkit-box-shadow: inset 0 0 15px 3px #ebebeb;
-    -moz-box-shadow: inset 0 0 15px 3px #ebebeb;
+  /* line 8, ../sass/_slideMenu.scss */
+
+  .sidr ul li:hover > a,
+  .sidr ul li:hover > span,
+  .sidr ul li.active > a,
+  .sidr ul li.active > span,
+  .sidr ul li.sidr-class-active > a,
+  .sidr ul li.sidr-class-active > span {
     box-shadow: inset 0 0 15px 3px #ebebeb;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
-  .sidr ul li a, .sidr ul li span {
+  /* line 8, ../sass/_slideMenu.scss */
+
+  .sidr ul li a,
+  .sidr ul li span {
     padding: 0 15px;
     display: block;
     text-decoration: none;
     color: #333;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr ul li ul {
     border-bottom: none;
     margin: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr ul li ul li {
     line-height: 40px;
     font-size: 13px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr ul li ul li:last-child {
     border-bottom: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
-  .sidr ul li ul li:hover, .sidr ul li ul li.active, .sidr ul li ul li.sidr-class-active {
+  /* line 8, ../sass/_slideMenu.scss */
+
+  .sidr ul li ul li:hover,
+  .sidr ul li ul li.active,
+  .sidr ul li ul li.sidr-class-active {
     border-top: none;
     line-height: 41px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
-  .sidr ul li ul li:hover > a, .sidr ul li ul li:hover > span, .sidr ul li ul li.active > a, .sidr ul li ul li.active > span, .sidr ul li ul li.sidr-class-active > a, .sidr ul li ul li.sidr-class-active > span {
-    -webkit-box-shadow: inset 0 0 15px 3px #ebebeb;
-    -moz-box-shadow: inset 0 0 15px 3px #ebebeb;
+  /* line 8, ../sass/_slideMenu.scss */
+
+  .sidr ul li ul li:hover > a,
+  .sidr ul li ul li:hover > span,
+  .sidr ul li ul li.active > a,
+  .sidr ul li ul li.active > span,
+  .sidr ul li ul li.sidr-class-active > a,
+  .sidr ul li ul li.sidr-class-active > span {
     box-shadow: inset 0 0 15px 3px #ebebeb;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
-  .sidr ul li ul li a, .sidr ul li ul li span {
+  /* line 8, ../sass/_slideMenu.scss */
+
+  .sidr ul li ul li a,
+  .sidr ul li ul li span {
     color: rgba(51, 51, 51, 0.8);
     padding-left: 30px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr form {
     margin: 0 15px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr label {
     font-size: 13px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
-  .sidr input[type="text"], .sidr input[type="password"], .sidr input[type="date"], .sidr input[type="datetime"], .sidr input[type="email"], .sidr input[type="number"], .sidr input[type="search"], .sidr input[type="tel"], .sidr input[type="time"], .sidr input[type="url"], .sidr textarea, .sidr select {
+  /* line 8, ../sass/_slideMenu.scss */
+
+  .sidr input[type="text"],
+  .sidr input[type="password"],
+  .sidr input[type="date"],
+  .sidr input[type="datetime"],
+  .sidr input[type="email"],
+  .sidr input[type="number"],
+  .sidr input[type="search"],
+  .sidr input[type="tel"],
+  .sidr input[type="time"],
+  .sidr input[type="url"],
+  .sidr textarea,
+  .sidr select {
     width: 100%;
     font-size: 13px;
     padding: 5px;
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0 0 10px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
     -o-border-radius: 2px;
     border-radius: 2px;
     border: none;
@@ -2010,257 +2582,183 @@ footer img {
     clear: both;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
+  /* line 8, ../sass/_slideMenu.scss */
+
   .sidr input[type=checkbox] {
     width: auto;
     display: inline;
     clear: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
-  .sidr input[type=button], .sidr input[type=submit] {
+  /* line 8, ../sass/_slideMenu.scss */
+
+  .sidr input[type=button],
+  .sidr input[type=submit] {
     color: #f8f8f8;
     background: #333;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_slideMenu\.scss}line{font-family:\000038}}
-  .sidr input[type=button]:hover, .sidr input[type=submit]:hover {
+  /* line 8, ../sass/_slideMenu.scss */
+
+  .sidr input[type=button]:hover,
+  .sidr input[type=submit]:hover {
     background: rgba(51, 51, 51, 0.9);
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_home\.scss}line{font-family:\000031}}
+
+/* line 1, ../sass/views/_home.scss */
+
 .home {
   padding-top: 55px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_home\.scss}line{font-family:\000034}}
+
+/* line 4, ../sass/views/_home.scss */
+
 .home h1 {
-  font-size: 3.3333333333em;
+  font-size: 2.9166666667em;
   letter-spacing: -0.02em;
-  line-height: 0.825em;
+  line-height: 0.8em;
   color: #f16c24;
   margin-bottom: 14px;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_home\.scss}line{font-family:\000034}}
+  /* line 4, ../sass/views/_home.scss */
+
   .home h1 {
     font-size: 4.5833333333em;
     letter-spacing: -0.02em;
     line-height: 0.8727272727em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_home\.scss}line{font-family:\0000312}}
+
+/* line 12, ../sass/views/_home.scss */
+
 .home h3 {
-  font-size: 2.0833333333em;
-  letter-spacing: 0.2em;
-  line-height: 0.8em;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  line-height: 0.7222222222em;
   background-color: #f16c24;
   color: #fff;
   padding: 17px 50px;
   display: inline-block;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_home\.scss}line{font-family:\0000312}}
+  /* line 12, ../sass/views/_home.scss */
+
   .home h3 {
     font-size: 3.6666666667em;
     letter-spacing: 0.7em;
     line-height: 0.8863636364em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_home\.scss}line{font-family:\0000322}}
+
+/* line 22, ../sass/views/_home.scss */
+
 .home .sponsored {
   text-indent: -9999999px;
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -279px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -713px;
   background-repeat: no-repeat;
   height: 50px;
   width: 286px;
   margin: 12px auto;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_home\.scss}line{font-family:\0000322}}
+  /* line 22, ../sass/views/_home.scss */
+
   .home .sponsored {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -323px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -757px;
     height: 50px;
     width: 286px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_home\.scss}line{font-family:\0000327}}
+
+/* line 27, ../sass/views/_home.scss */
+
 .home .date {
-  font-size: 3.5833333333em;
+  font-size: 2.75em;
   letter-spacing: -0.02em;
-  line-height: 1.2093023256em;
+  line-height: 1.2727272727em;
   margin: 42px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_home\.scss}line{font-family:\0000331}}
+
+@media (min-width: 768px) {
+  /* line 27, ../sass/views/_home.scss */
+
+  .home .date {
+    font-size: 3.5833333333em;
+    letter-spacing: -0.02em;
+    line-height: 1.2093023256em;
+  }
+}
+
+/* line 34, ../sass/views/_home.scss */
+
 .home .info {
   color: #579fd2;
   font-family: 'ub',sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_home\.scss}line{font-family:\0000334}}
+
+/* line 37, ../sass/views/_home.scss */
+
 .home .info p {
-  font-size: 2.1666666667em;
-  letter-spacing: 0.12em;
+  font-size: 1.3333333333em;
+  letter-spacing: 0.001em;
   line-height: 1em;
   margin-bottom: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\000032}}
+@media (min-width: 768px) {
+  /* line 37, ../sass/views/_home.scss */
+
+  .home .info p {
+    font-size: 2.1666666667em;
+    letter-spacing: 0.12em;
+    line-height: 1em;
+  }
+}
+
+/* line 2, ../sass/views/_question_answer.scss */
+
 .qa .page-container {
   width: 100%;
   margin: 0 auto;
 }
+
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\000032}}
+  /* line 2, ../sass/views/_question_answer.scss */
+
   .qa .page-container {
     width: 825px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000312}}
-.qa dl {
-  margin: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000315}}
-.qa dl dt {
-  font-family: 'ub',sans-serif;
-  font-size: 1.4166666667em;
-  letter-spacing: 0.001em;
-  line-height: 1.1764705882em;
-  margin-bottom: 5px;
-  position: relative;
-}
-@media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000315}}
-  .qa dl dt {
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_mixins\.scss}line{font-family:\0000348}}
-  .qa dl dt:before, .qa dl dt:after {
-    display: block;
-    content: "";
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000325}}
-  .qa dl dt:before {
-    position: absolute;
-    top: 15px;
-    width: 100%;
-    height: 18px;
-    background-color: #414041;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000332}}
-  .qa dl dt:after {
-    position: absolute;
-    top: -20px;
-    background-image: url('../images/icons-s71e800ad0b.png');
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    height: 85px;
-    width: 74px;
-  }
-}
-@media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 992px) and (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000332}}
-  .qa dl dt:after {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -44px;
-    height: 85px;
-    width: 74px;
-    background-size: 286px auto;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000339}}
-.qa dl dd {
-  font-size: 1.0833333333em;
-  letter-spacing: 0.001em;
-  line-height: 1.3076923077em;
-  color: #f16c24;
-  margin: 0 0  20px 0;
-}
-@media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000339}}
-  .qa dl dd {
-    margin: 0 0  80px 0;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000348}}
-.qa .right {
-  float: left;
-}
-@media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000348}}
-  .qa .right {
-    float: right;
-    text-align: right;
-  }
-}
-@media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000355}}
-  .qa .right dt:before {
-    right: -128%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000358}}
-  .qa .right dt:after {
-    background-image: url('../images/icons-s71e800ad0b.png');
-    background-position: 0 -85px;
-    background-repeat: no-repeat;
-    height: 85px;
-    width: 74px;
-    right: -95px;
-  }
-}
-@media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 992px) and (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000358}}
-  .qa .right dt:after {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -129px;
-    height: 85px;
-    width: 74px;
-    background-size: 286px auto;
-  }
-}
-@media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000367}}
-  .qa .left dt:before {
-    left: -128%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000370}}
-  .qa .left dt:after {
-    background-image: url('../images/icons-s71e800ad0b.png');
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    height: 85px;
-    width: 74px;
-    left: -95px;
-  }
-}
-@media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 992px) and (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000370}}
-  .qa .left dt:after {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -44px;
-    height: 85px;
-    width: 74px;
-    background-size: 286px auto;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000379}}
+
+/* line 15, ../sass/views/_question_answer.scss */
+
 .qa .pagination {
   width: 100%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000383}}
+
+/* line 19, ../sass/views/_question_answer.scss */
+
 .qa .pagination ul {
   display: inline-block;
   background-color: #f16c24;
   padding: 6px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000388}}
-.qa .pagination ul:before, .qa .pagination ul:after {
+
+/* line 24, ../sass/views/_question_answer.scss */
+
+.qa .pagination ul:before,
+.qa .pagination ul:after {
   content: "";
   display: block;
   width: 0;
@@ -2269,23 +2767,31 @@ footer img {
   position: absolute;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\0000398}}
+
+/* line 34, ../sass/views/_question_answer.scss */
+
 .qa .pagination ul:before {
   left: -16px;
   border-width: 18px 16px 18px 0;
   border-color: transparent #f16c24 transparent transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\00003103}}
+
+/* line 39, ../sass/views/_question_answer.scss */
+
 .qa .pagination ul:after {
   right: -16px;
   border-width: 18px 0 18px 16px;
   border-color: transparent transparent transparent #f16c24;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\00003108}}
+
+/* line 44, ../sass/views/_question_answer.scss */
+
 .qa .pagination ul li {
   padding: 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\00003111}}
+
+/* line 47, ../sass/views/_question_answer.scss */
+
 .qa .pagination ul li a {
   font-size: 2em;
   letter-spacing: 0.001em;
@@ -2293,33 +2799,315 @@ footer img {
   color: #fff;
   padding: 2px 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_question_answer\.scss}line{font-family:\00003116}}
+
+/* line 52, ../sass/views/_question_answer.scss */
+
 .qa .pagination ul li a.active {
   color: #f16c24;
   background-color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_tournament_description\.scss}line{font-family:\000031}}
+/* line 1, ../sass/views/_tournament_description.scss */
+
 .tournament-description {
   text-align: center;
   font-size: 1.5em;
   letter-spacing: 0.001em;
   line-height: 1.6666666667em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_tournament_description\.scss}line{font-family:\000035}}
-.tournament-description figure {
-  margin-bottom: 40px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_tournament_description\.scss}line{font-family:\000038}}
-.tournament-description p {
-  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\000031}}
+@media (min-width: 992px) {
+  /* line 6, ../sass/views/_tournament_description.scss */
+
+  .tournament-description:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -64px;
+    left: -15px;
+    background-image: url('../images/icons-s5f3d4e7328.png');
+    background-position: 0 -170px;
+    background-repeat: no-repeat;
+    height: 434px;
+    width: 168px;
+  }
+}
+
+@media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 992px) and (min-device-pixel-ratio: 2) {
+  /* line 6, ../sass/views/_tournament_description.scss */
+
+  .tournament-description:before {
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 0;
+    height: 434px;
+    width: 168px;
+    background-size: 286px auto;
+  }
+}
+
+/* line 19, ../sass/views/_tournament_description.scss */
+
+.tournament-description .intro {
+  background-color: #f16c24;
+  padding: 5px 15px;
+  position: relative;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* line 19, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .intro {
+    margin-bottom: 50px;
+    padding: 20px 35px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 19, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .intro {
+    width: 100%;
+    margin-left: 12%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 19, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .intro {
+    width: 116%;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 39, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .intro:before {
+    content: "";
+    display: block;
+    background-image: url('../images/icons-s5f3d4e7328.png');
+    background-position: 0 -1098px;
+    background-repeat: no-repeat;
+    height: 52px;
+    width: 52px;
+    position: absolute;
+    left: -50px;
+    top: 45px;
+  }
+}
+
+@media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 992px) and (min-device-pixel-ratio: 2) {
+  /* line 39, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .intro:before {
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1062px;
+    height: 52px;
+    width: 52px;
+    background-size: 286px auto;
+  }
+}
+
+/* line 51, ../sass/views/_tournament_description.scss */
+
+.tournament-description .intro h2 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 17px;
+}
+
+@media (min-width: 768px) {
+  /* line 51, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .intro h2 {
+    font-size: 33px;
+    line-height: 39px;
+  }
+}
+
+/* line 60, ../sass/views/_tournament_description.scss */
+
+.tournament-description .intro p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 60, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .intro p {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 72, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .content-hand {
+    width: 762px;
+  }
+}
+
+/* line 77, ../sass/views/_tournament_description.scss */
+
+.tournament-description .content-hand dt {
+  margin-bottom: 10px;
+}
+
+/* line 80, ../sass/views/_tournament_description.scss */
+
+.tournament-description .content-hand dt:after {
+  top: 10px;
+  z-index: -1;
+}
+
+/* line 84, ../sass/views/_tournament_description.scss */
+
+.tournament-description .content-hand dt:before {
+  top: 42px;
+  z-index: -1;
+}
+
+/* line 89, ../sass/views/_tournament_description.scss */
+
+.tournament-description .content-hand dd {
+  margin-bottom: 20px;
+}
+
+/* line 93, ../sass/views/_tournament_description.scss */
+
+.tournament-description .content-hand.right {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  /* line 93, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .content-hand.right {
+    text-align: right;
+    margin-right: 10%;
+  }
+}
+
+/* line 101, ../sass/views/_tournament_description.scss */
+
+.tournament-description .content-hand.right dt:before {
+  right: -114%;
+}
+
+/* line 105, ../sass/views/_tournament_description.scss */
+
+.tournament-description .content-hand.left {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  /* line 105, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .content-hand.left {
+    margin-left: 5%;
+  }
+}
+
+/* line 111, ../sass/views/_tournament_description.scss */
+
+.tournament-description .content-hand.left dt:before {
+  left: -114%;
+}
+
+/* line 116, ../sass/views/_tournament_description.scss */
+
+.tournament-description dt,
+.tournament-description dd {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  /* line 116, ../sass/views/_tournament_description.scss */
+
+  .tournament-description dt,
+  .tournament-description dd {
+    font-size: 22px;
+  }
+}
+
+/* line 123, ../sass/views/_tournament_description.scss */
+
+.tournament-description dt {
+  color: #f16c24;
+  font-family: 'ul',sans-serif;
+}
+
+/* line 128, ../sass/views/_tournament_description.scss */
+
+.tournament-description dd {
+  color: #579fd2;
+}
+
+/* line 132, ../sass/views/_tournament_description.scss */
+
+.tournament-description .comment {
+  font-size: 22px;
+  line-height: 22px;
+  color: #fff;
+  background-color: #579fd2;
+  padding: 20px 15px;
+  position: relative;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  /* line 132, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .comment {
+    width: 400px;
+    float: right;
+  }
+}
+
+/* line 144, ../sass/views/_tournament_description.scss */
+
+.tournament-description .comment:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 10px;
+  bottom: -30px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1262px;
+  background-repeat: no-repeat;
+  height: 38px;
+  width: 38px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 144, ../sass/views/_tournament_description.scss */
+
+  .tournament-description .comment:after {
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1344px;
+    height: 38px;
+    width: 38px;
+    background-size: 286px auto;
+  }
+}
+
+/* line 1, ../sass/views/_registration.scss */
+
 .registration {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\000035}}
+
+/* line 5, ../sass/views/_registration.scss */
+
 .registration .wait span {
   font-family: 'ub',sans-serif;
   font-size: 3.1666666667em;
@@ -2331,85 +3119,111 @@ footer img {
   padding: 9px 25px;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\0000314}}
+
+/* line 14, ../sass/views/_registration.scss */
+
 .registration .wait h3 {
   font-size: 1.6666666667em;
   letter-spacing: 0.06em;
   line-height: 0.9em;
   color: #f16c24;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/_mixins\.scss}line{font-family:\0000348}}
-.registration .wait h3:before, .registration .wait h3:after {
+
+/* line 48, ../sass/_mixins.scss */
+
+.registration .wait h3:before,
+.registration .wait h3:after {
   display: block;
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\0000318}}
+
+/* line 18, ../sass/views/_registration.scss */
+
 .registration .wait h3:before {
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -598px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1032px;
   background-repeat: no-repeat;
   height: 30px;
   width: 70px;
   margin: 13px auto;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\0000318}}
+  /* line 18, ../sass/views/_registration.scss */
+
   .registration .wait h3:before {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -598px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1032px;
     height: 30px;
     width: 70px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\0000322}}
+
+/* line 22, ../sass/views/_registration.scss */
+
 .registration .wait h3:after {
-  background-image: url('../images/icons-s71e800ad0b.png');
-  background-position: 0 -1050px;
+  background-image: url('../images/icons-s5f3d4e7328.png');
+  background-position: 0 -1574px;
   background-repeat: no-repeat;
   height: 26px;
   width: 30px;
   margin: 13px auto;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\0000322}}
+  /* line 22, ../sass/views/_registration.scss */
+
   .registration .wait h3:after {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -1050px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -1574px;
     height: 26px;
     width: 30px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\0000329}}
+
+/* line 29, ../sass/views/_registration.scss */
+
 .registration .question {
   font-size: 1.4166666667em;
   letter-spacing: 0.001em;
   line-height: 1.1764705882em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\0000331}}
+
+/* line 31, ../sass/views/_registration.scss */
+
 .registration .question .option {
   padding-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\0000334}}
+
+/* line 34, ../sass/views/_registration.scss */
+
 .registration .question p {
   font-family: 'ub',sans-serif;
   margin-bottom: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\0000338}}
+
+/* line 38, ../sass/views/_registration.scss */
+
 .registration .question label {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration\.scss}line{font-family:\0000341}}
+
+/* line 41, ../sass/views/_registration.scss */
+
 .registration .question button {
   font-size: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\000031}}
+/* line 1, ../sass/views/_registration_form.scss */
+
 .registration-form {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\000033}}
+
+/* line 3, ../sass/views/_registration_form.scss */
+
 .registration-form h1 {
   color: #fff;
   font-size: 2.4166666667em;
@@ -2420,8 +3234,10 @@ footer img {
   padding: 10px 40px;
   display: inline-block;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\000033}}
+  /* line 3, ../sass/views/_registration_form.scss */
+
   .registration-form h1 {
     font-size: 2.4166666667em;
     letter-spacing: 0.7em;
@@ -2429,7 +3245,9 @@ footer img {
     padding: 10px 60px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000315}}
+
+/* line 15, ../sass/views/_registration_form.scss */
+
 .registration-form form {
   text-align: left;
   font-size: 1.6666666667em;
@@ -2437,17 +3255,23 @@ footer img {
   line-height: 1.5em;
   padding: 35px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000319}}
+
+/* line 19, ../sass/views/_registration_form.scss */
+
 .registration-form form div {
   position: relative;
   padding: 5px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000323}}
+
+/* line 23, ../sass/views/_registration_form.scss */
+
 .registration-form form label {
   font-family: 'ub',sans-serif;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000330}}
+
+/* line 30, ../sass/views/_registration_form.scss */
+
 .registration-form form input[type="text"],
 .registration-form form input[type="email"],
 .registration-form form input[type="number"] {
@@ -2458,75 +3282,105 @@ footer img {
   border-bottom: 1px solid #414041;
   font-family: 'ul', sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000339}}
+
+/* line 39, ../sass/views/_registration_form.scss */
+
 .registration-form form ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000342}}
+
+/* line 42, ../sass/views/_registration_form.scss */
+
 .registration-form form ol li {
   list-style: none;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000342}}
+  /* line 42, ../sass/views/_registration_form.scss */
+
   .registration-form form ol li {
     padding-left: 30px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000350}}
+
+/* line 50, ../sass/views/_registration_form.scss */
+
 .registration-form form .add {
   font-size: .6em;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000350}}
+  /* line 50, ../sass/views/_registration_form.scss */
+
   .registration-form form .add {
     position: absolute;
     right: 0;
     bottom: 8px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000358}}
+
+/* line 58, ../sass/views/_registration_form.scss */
+
 .registration-form form .submit {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000360}}
+
+/* line 60, ../sass/views/_registration_form.scss */
+
 .registration-form form .submit button {
   font-size: 25px;
 }
+
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000367}}
+  /* line 67, ../sass/views/_registration_form.scss */
+
   .registration-form form input[name="group_name"] {
     width: 675px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000370}}
+
+  /* line 70, ../sass/views/_registration_form.scss */
+
   .registration-form form input[name="group_leader"] {
     width: 393px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000373}}
+
+  /* line 73, ../sass/views/_registration_form.scss */
+
   .registration-form form input.group-member {
     width: 546px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000376}}
+
+  /* line 76, ../sass/views/_registration_form.scss */
+
   .registration-form form input[name="group_leader_telephone"] {
     width: 502px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000379}}
+
+  /* line 79, ../sass/views/_registration_form.scss */
+
   .registration-form form input[name="group_leader_email"] {
     width: 645px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000382}}
+
+  /* line 82, ../sass/views/_registration_form.scss */
+
   .registration-form form input[name="group_leader_mobile"] {
     width: 542px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000389}}
+
+/* line 89, ../sass/views/_registration_form.scss */
+
 .registration-form .register-ok {
   text-align: center;
   width: 70%;
-  margin: 5% auto;
+  margin: 40% auto;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000395}}
+
+/* line 95, ../sass/views/_registration_form.scss */
+
 .registration-form .register-ok h4 {
   background-color: #f16c24;
   padding: 5px 10px;
@@ -2538,30 +3392,39 @@ footer img {
   margin-bottom: 15px;
   position: relative;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\0000395}}
+  /* line 95, ../sass/views/_registration_form.scss */
+
   .registration-form .register-ok h4 {
     font-size: 3.5em;
     letter-spacing: 0.7em;
     line-height: 1em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003107}}
+
+/* line 107, ../sass/views/_registration_form.scss */
+
 .registration-form .register-ok h5 {
   font-size: 2.0833333333em;
   letter-spacing: 0.1em;
   line-height: 1em;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003107}}
+  /* line 107, ../sass/views/_registration_form.scss */
+
   .registration-form .register-ok h5 {
     font-size: 3.5em;
     letter-spacing: 0.28em;
     line-height: 1em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003115}}
-.registration-form .register-ok:before, .registration-form .register-ok h4:before {
+
+/* line 115, ../sass/views/_registration_form.scss */
+
+.registration-form .register-ok:before,
+.registration-form .register-ok h4:before {
   position: absolute;
   top: 9px;
   width: 100%;
@@ -2569,114 +3432,149 @@ footer img {
   background-color: #414041;
   content: "";
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003115}}
-  .registration-form .register-ok:before, .registration-form .register-ok h4:before {
+  /* line 115, ../sass/views/_registration_form.scss */
+
+  .registration-form .register-ok:before,
+  .registration-form .register-ok h4:before {
     top: 15px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003126}}
-.registration-form .register-ok:after, .registration-form .register-ok h4:after {
+
+/* line 126, ../sass/views/_registration_form.scss */
+
+.registration-form .register-ok:after,
+.registration-form .register-ok h4:after {
   content: "";
   position: absolute;
   top: -25px;
-  background-image: url('../images/icons-s71e800ad0b.png');
+  background-image: url('../images/icons-s5f3d4e7328.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   height: 85px;
   width: 74px;
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003126}}
-  .registration-form .register-ok:after, .registration-form .register-ok h4:after {
+  /* line 126, ../sass/views/_registration_form.scss */
+
+  .registration-form .register-ok:after,
+  .registration-form .register-ok h4:after {
     top: -17px;
   }
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003126}}
-  .registration-form .register-ok:after, .registration-form .register-ok h4:after {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -44px;
+  /* line 126, ../sass/views/_registration_form.scss */
+
+  .registration-form .register-ok:after,
+  .registration-form .register-ok h4:after {
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -478px;
     height: 85px;
     width: 74px;
     background-size: 286px auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003139}}
+
+/* line 139, ../sass/views/_registration_form.scss */
+
 .registration-form .register-ok:before {
   left: -115%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003142}}
+
+/* line 142, ../sass/views/_registration_form.scss */
+
 .registration-form .register-ok:after {
-  background-image: url('../images/icons-s71e800ad0b.png');
+  background-image: url('../images/icons-s5f3d4e7328.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   height: 85px;
   width: 74px;
   left: -58px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003142}}
+  /* line 142, ../sass/views/_registration_form.scss */
+
   .registration-form .register-ok:after {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -44px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -478px;
     height: 85px;
     width: 74px;
     background-size: 286px auto;
   }
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003142}}
+  /* line 142, ../sass/views/_registration_form.scss */
+
   .registration-form .register-ok:after {
     left: -95px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003152}}
+
+/* line 152, ../sass/views/_registration_form.scss */
+
 .registration-form .register-ok h4:before {
   right: -115%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003155}}
+
+/* line 155, ../sass/views/_registration_form.scss */
+
 .registration-form .register-ok h4:after {
-  background-image: url('../images/icons-s71e800ad0b.png');
+  background-image: url('../images/icons-s5f3d4e7328.png');
   background-position: 0 -85px;
   background-repeat: no-repeat;
   height: 85px;
   width: 74px;
   right: -58px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003155}}
+  /* line 155, ../sass/views/_registration_form.scss */
+
   .registration-form .register-ok h4:after {
-    background-image: url('../images/iconsRetina-s7204b63507.png');
-    background-position: 0 -129px;
+    background-image: url('../images/iconsRetina-sb40f2afd73.png');
+    background-position: 0 -563px;
     height: 85px;
     width: 74px;
     background-size: 286px auto;
   }
 }
+
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_registration_form\.scss}line{font-family:\00003155}}
+  /* line 155, ../sass/views/_registration_form.scss */
+
   .registration-form .register-ok h4:after {
     right: -95px;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_terms_conditions\.scss}line{font-family:\000031}}
+/* line 1, ../sass/views/_terms_conditions.scss */
+
 .terms-conditions {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_terms_conditions\.scss}line{font-family:\000033}}
+
+/* line 3, ../sass/views/_terms_conditions.scss */
+
 .terms-conditions .term {
   padding-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_terms_conditions\.scss}line{font-family:\000036}}
+
+/* line 6, ../sass/views/_terms_conditions.scss */
+
 .terms-conditions h3 {
   font-family: 'ub',sans-serif;
   font-size: 1.6666666667em;
   letter-spacing: 0.001em;
   line-height: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laurensortiz\/Documents\/Brete\/diGroupcr\/Server\/programathon\.cr\/program_athon\/app\/sass\/views\/_terms_conditions\.scss}line{font-family:\0000310}}
+
+/* line 10, ../sass/views/_terms_conditions.scss */
+
 .terms-conditions p {
   font-size: 1.5em;
   letter-spacing: 0.001em;

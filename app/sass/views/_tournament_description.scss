@@ -1,11 +1,153 @@
 .tournament-description{
   text-align: center;
   @include font-size(18,30,1);
+  position: relative;
+  padding-bottom: 30px;
+  &:before{
 
-  figure{
-    margin-bottom: 40px;
+    @media (min-width: $screen-md) {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -64px;
+      left: -15px;
+      @include retina-sprite(half_robot);
+    }
+
+
   }
-  p{
-    margin-bottom: 30px;
+  .intro{
+    background-color: $orange;
+    padding: 5px 15px;
+    position: relative;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    @media (min-width: $screen-sm) {
+      margin-bottom: 50px;
+      padding: 20px 35px;
+
+    }
+    @media (min-width: $screen-md) {
+      width: 100%;
+      margin-left: 12%;
+    }
+    @media (min-width: $screen-lg) {
+      width: 116%;
+      margin-left: 0;
+    }
+    &:before{
+
+      @media (min-width: $screen-md) {
+        content: "";
+        display: block;
+        @include retina-sprite(comment_orange);
+        position: absolute;
+        left: -50px;
+        top: 45px;
+      }
+    }
+
+    h2{
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 17px;
+      @media (min-width: $screen-sm) {
+        font-size: 33px;
+        line-height: 39px;
+      }
+    }
+    p{
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 10px;
+      @media (min-width: $screen-sm) {
+        font-size: 24px;
+        line-height: 29px;
+      }
+
+
+    }
+  }
+  .content-hand{
+
+    @media (min-width: $screen-sm) {
+      width: 762px;
+    }
+    dt{
+      margin-bottom: 10px;
+    }
+    dt:after{
+      top: 10px;
+      z-index: -1;
+    }
+    dt:before{
+      top: 42px;
+      z-index: -1;
+
+    }
+    dd{
+      margin-bottom: 20px;
+    }
+
+    &.right{
+
+      text-align: left;
+      @media (min-width: $screen-sm) {
+        text-align: right;
+        margin-right: 10%;
+      }
+
+      dt:before{
+        right: -114%;
+      }
+    }
+    &.left{
+
+      text-align: left;
+      @media (min-width: $screen-sm) {
+        margin-left: 5%;
+      }
+      dt:before{
+        left: -114%;
+      }
+    }
+  }
+  dt,dd{
+    font-size: 18px;
+    @media (min-width: $screen-sm) {
+      font-size: 22px;
+    }
+
+  }
+  dt{
+    color: $orange;
+
+    font-family: 'ul',sans-serif;
+  }
+  dd{
+    color: $blue;
+  }
+
+  .comment{
+    font-size: 22px;
+    line-height: 22px;
+    color: #fff;
+    background-color: $blue;
+    padding: 20px 15px;
+    position: relative;
+    margin-top: 20px;
+    @media (min-width: $screen-sm) {
+      width: 400px;
+      float: right;
+    }
+    &:after{
+      content: "";
+      display: block;
+      position: absolute;
+      right: 10px;
+      bottom: -30px;
+      @include retina-sprite(comment_blue);
+    }
   }
 }

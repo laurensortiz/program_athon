@@ -13,54 +13,64 @@ angular.module('programApp')
   }
   var QUESTIONS = [
     {
-      title: 'Question 1?',
+      title: 'To reproduce a file with .MP3 extension in Java, you must:',
       options:{
-        option1:'option1 for Question 1',
-        option2:'option2 for Question 1',
-        option3:'option3 for Question 1',
-        option4:'option4 for Question 1'
+        option1:'a)	Create a class to convert the file to a .Ogg format',
+        option2:'b)	Use the API JavaSound (extends javasound) ',
+        option3:'c)	Java includes a SPI provider named AudioClip to administrate .MP3 files',
+        option4:'d)	The are no options to audio management in the actual version of the framework '
       },
-      ca:1
+      ca:2
       
     },
     {
-      title: 'Question 2?',
+      title: 'A Java property file is a document to store configuration properties of an application.  The correct format to store those properties is:',
       options:{
-        option1:'option1 for Question 2',
-        option2:'option2 for Question 2',
-        option3:'option3 for Question 2',
-        option4:'option4 for Question 2'
+        option1:'a)	nameof_property=valueof_property',
+        option2:'b)	<property name="nameof_property" value="valueof_property" />',
+        option3:'c)	id_ofproperty [delimiter] valueof_property',
+        option4:'d)	The format doesn’t matter and it is defined by the programmer '
       },
       ca:1
 
     },
     {
-      title: 'Question 3?',
+      title: 'A window is composed by multiple layers where the Graphics object represents:',
       options:{
-        option1:'option1 for Question 3',
-        option2:'option2 for Question 3',
-        option3:'option3 for Question 3',
-        option4:'option4 for Question 3'
+        option1:'a)	A display list.',
+        option2:'b)	A container of images.',
+        option3:'c)	A canvas for drawing.',
+        option4:'d)	A bit map.'
       },
-      ca:1
+      ca:3
     },
     {
-      title: 'Question 4?',
+      title: 'To identify an user activity related with a mouse click, a menu activation or an <Enter> key press  in a text box, it’s necessary to implement the following method:',
       options:{
-        option1:'option1 for Question 4',
-        option2:'option2 for Question 4',
-        option3:'option3 for Question 4',
-        option4:'option4 for Question 4'
+        option1:'a)	componentAdded',
+        option2:'b)	itemStateChanged',
+        option3:'c)	textValueChanged',
+        option4:'d)	actionPerformed'
       },
-      ca:1
+      ca:4
     },
     {
-      title: 'Question 5?',
+      title: 'The implementation of a drag mouse sensitive class  is achieved working with:',
       options:{
-        option1:'option1 for Question 5',
-        option2:'option2 for Question 5',
-        option3:'option3 for Question 5',
-        option4:'option4 for Question 5'
+        option1:'a)	WindowFocusListener',
+        option2:'b)	MouseMotionListener',
+        option3:'c)	MouseListener',
+        option4:'d)	WindowListener'
+      },
+      ca:2
+    },
+    {
+      title: 'Which of the following code fragments can be used to pause the thread execution during a second?',
+      options:{
+        option1:'a)	Thread.sleep(1000);',
+        option2:'b)	Thread.sleep(1);',
+        option3:'c)	Thread.pause(1000);',
+        option4:'d)	Thread.pause(1);'
       },
       ca:1
     }

@@ -11,6 +11,7 @@ header{
   left: 0;
   text-align: left;
   z-index: 5;
+  //-webkit-transform: translateZ(0px);
   @media (min-width: $screen-sm) {
     text-align: center;
     position: static;
@@ -31,6 +32,7 @@ header{
       height: 3px;
       margin-top: 5px;
       background-color: $gray;
+      position: relative;
     }
     @include pseudoElement();
     &:before, &:after{
@@ -92,7 +94,9 @@ header{
 
   nav{
     background-color: #fff;
-
+    @media (min-width: $screen-sm) {
+      right: 0!important;
+    }
     li{
       width: 100%;
       border-top: 2px solid #fcfcfc;
@@ -160,7 +164,7 @@ header{
           content: "";
           display: none;
           position: absolute;
-          top: -13px;
+          top: -9px;
           @media (min-width: $screen-sm) {
             display: block;
           }
@@ -176,6 +180,11 @@ header{
         }
       }
     }
+  }
+}
+.sidr-open{
+  header .menu-mobile span{
+    background-color: $orange;
   }
 }
 //IE

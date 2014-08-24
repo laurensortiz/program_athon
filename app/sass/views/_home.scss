@@ -2,7 +2,7 @@
   padding-top: 55px;
   text-align: center;
   h1{
-    @include font-size(40,33,-20);
+    @include font-size(35,28,-20);
     color: $orange;
     margin-bottom: 14px;
     @media (min-width: $screen-sm) {
@@ -10,7 +10,7 @@
     }
   }
   h3{
-    @include font-size(25,20,200);
+    @include font-size(18,13,100);
     background-color: $orange;
     color: #fff;
     padding: 17px 50px;
@@ -25,15 +25,21 @@
     margin: 12px auto;
   }
   .date{
-    @include font-size(43,52,-20);
+    @include font-size(33,42,-20);
     margin: 42px 0 0;
+    @media (min-width: $screen-sm) {
+      @include font-size(43,52,-20);
+    }
   }
   .info{
     color: $blue;
     font-family: 'ub',sans-serif;
     p{
-      @include font-size(26,auto,120);
+      @include font-size(16,auto,1);
       margin-bottom: 15px;
+      @media (min-width: $screen-sm) {
+        @include font-size(26,auto,120);
+      }
     }
 
   }

@@ -9,72 +9,8 @@
       width: 825px;
     }
   }
-  dl{
-    margin: 0;
 
-    dt{
-      font-family: 'ub',sans-serif;
-      @include font-size(17,20,1);
-      margin-bottom: 5px;
-      position: relative;
-      @media (min-width: $screen-sm) {
-        margin-bottom: 20px;
-      }
-      @media (min-width: $screen-md) {
-        @include pseudoElement();
-        &:before{
-          position: absolute;
-          top: 15px;
-          width: 100%;
-          height: 18px;
-          background-color: $gray;
-        }
-        &:after{
-          position: absolute;
-          top: -20px;
-          @include retina-sprite(robot_hand);
-        }
-      }
-    }
-    dd{
-      @include font-size(13,17,1);
-      color: $orange;
-      margin:0 0  20px 0;
-      @media (min-width: $screen-sm) {
-        margin:0 0  80px 0;
-      }
-    }
-  }
-  .right{
-    float: left;
-    @media (min-width: $screen-sm) {
-      float: right;
-      text-align: right;
-    }
-    @media (min-width: $screen-md) {
-      dt:before{
-        right: -128%;
-      }
-      dt:after{
-        @include retina-sprite(robot_hand_r);
-        right: -95px;
-      }
-    }
 
-  }
-  .left{
-    @media (min-width: $screen-md) {
-      dt:before{
-        left: -128%;
-      }
-      dt:after{
-        @include retina-sprite(robot_hand);
-        left: -95px;
-
-      }
-    }
-
-  }
 
   .pagination{
     width: 100%;
