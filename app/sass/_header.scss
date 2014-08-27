@@ -80,8 +80,10 @@ header{
       display: inline-block;
       @include retina-sprite(robot_m);
       @media (min-width: $screen-sm) {
-        @include retina-sprite(robot);
+        height: 159px;
+        width: 146px;
         background: none;
+
       }
       .robot-life{
         display: none;
@@ -164,10 +166,13 @@ header{
           content: "";
           display: none;
           position: absolute;
-          top: -9px;
+          top: -15px;
           @media (min-width: $screen-sm) {
             display: block;
           }
+          @media (min-width: $screen-md) {
+            top: -9px;          }
+
         }
         &:before{
 
@@ -188,7 +193,7 @@ header{
   }
 }
 //IE
-.lt-ie9{
+.ie header .logo{
   .robot .robot-life{
     display: none;
   }
