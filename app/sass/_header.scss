@@ -15,7 +15,7 @@ header{
   @media (min-width: $screen-sm) {
     text-align: center;
     position: static;
-    padding-top: 30px;
+    padding-top: 10px;
   }
 
   .menu-mobile{
@@ -121,7 +121,8 @@ header{
       display: block;
       padding: 17px 0;
       position: relative;
-      top:40px;
+      top:17px;
+      margin-bottom: -22px;
     }
 
     a{

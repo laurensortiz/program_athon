@@ -1,3 +1,6 @@
+@keyframes blink {
+  50% { border-color: red; }
+}
 .registration-form{
   text-align: center;
    h1{
@@ -82,16 +85,34 @@
       input[name="group_leader_mobile"]{
         width: 542px;
       }
+
+      input.ts-member{
+        width: 40px;
+        text-transform: uppercase;
+        text-align: center;
+      }
     }
 
 
+  }
+  .error{
+    label{
+      color: red;
+    }
+    .error-msn{
+      font-size: 14px;
+      font-style: italic;
+      color: red;
+    }
   }
   .register-ok{
     text-align: center;
     width: 70%;
     margin: 40% auto;
     position: relative;
-
+    @media (min-width: $screen-sm) {
+      margin: 5% auto;
+    }
     h4{
       background-color: $orange;
       padding:5px 10px;

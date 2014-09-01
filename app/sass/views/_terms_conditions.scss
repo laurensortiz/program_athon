@@ -1,13 +1,16 @@
 .terms-conditions{
-  text-align: center;
+  text-align: justify;
   .term{
     padding-bottom:20px;
+  }
+  a{
+    color: $orange;
   }
    h3{
      font-family: 'ub',sans-serif;
      @include font-size(20,30,1);
    }
-  p{
+  p,li{
     @include font-size(18,30,1);
   }
 }

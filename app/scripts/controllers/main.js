@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('programApp')
-  .controller('MainCtrl', function ($scope,$rootScope,$location) {
+  .controller('MainCtrl', function ($scope,$rootScope,$location,$route) {
     $rootScope.loading = true;
     $rootScope.pageReady = false;
     $scope.$on('$viewContentLoaded', function() {
@@ -14,7 +14,8 @@ angular.module('programApp')
       $rootScope.userRegistrated = true;
     }
     $scope.closeModal = function(){
-      $location.url('/');
+      $location.path('/registration');
+      $route.reload();
       $rootScope.modal = false;
     };
 
@@ -24,5 +25,15 @@ angular.module('programApp')
     $('.sidr a').on('click',function(){
       $.sidr('close', 'sidr');
 
+    });
+
+    $('.pagination a').on('click',function(e){
+      e.preventDefault();
+      if(e.currentTarget.className !=='active'){
+        $('.pagination a.active,.page.active').removeClass('active');
+        $(this).addClass('active');
+        $('.page-'+parseInt(e.currentTarget.innerHTML)).addClass('active');
+
+      }
     });
   });

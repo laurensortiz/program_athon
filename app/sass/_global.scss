@@ -136,7 +136,7 @@ nav{
   background: rgb(0,0,0);
   background: rgba(0,0,0,.8);
   z-index: 10;
-  -webkit-transform: translateZ(0px);
+  //-webkit-transform: translateZ(0px);
   .close{
     text-indent: -9999999px;
     display: block;
@@ -152,7 +152,7 @@ nav{
     text-align: center;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
-    padding: 25px;
+    padding: 25px 0;
     margin: auto;
     width: 90%;
     top: 0;
@@ -161,11 +161,16 @@ nav{
     position: absolute;
     left: 0;
     right: 0;
+
     @media (min-width: $screen-sm) {
-      @include font-size(60,60,1);
-      padding: 50px;
+      @include font-size(20,25,1);
+      padding: 50px 0;
       width: 73%;
-      height: 37%;
+      height: 30%;
+    }
+
+    a{
+      color: $orange;
     }
   }
 }

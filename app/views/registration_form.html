@@ -12,19 +12,28 @@
         <input type="text" value="" name="group_leader" ng-model="groupLeader" required>
       </div>
       <div>
-        <label>GROUP MEMBERS:(at least 2 plus leader) </label>
+        <label>GROUP MEMBERS:</label>
         <ol>
-          <li ng-repeat="member in groupMembers">FIRST AND LAST NAME #{{$index+1}}:<input class="group-member" ng-model="member.name" type="text" value="" name="group_member{{$index+1}}" required></li>
+          <li ng-repeat="member in groupMembers">FIRST AND LAST NAME #{{$index+1}}:<input class="group-member" ng-keypress="" ng-model="member.name" type="text" value="" name="group_member{{$index+1}}" required></li>
         </ol>
         <button class="add" ng-hide="groupMembers.length>4" ng-click="addInput()">add</button>
+      </div>
+      <div>
+        <label>T-SHIRT SIZE:</label>
+        <ol>
+          <li>SIZE OF <span ng-bind="groupLeader | uppercase"></span>:<input class="ts-member" type="text" value="" name="groupLeader_tSize" ng-model="groupLeader_tSize" required></li>
+
+          <li ng-repeat="member in groupMembers">SIZE OF {{member.name | uppercase}}:<input class="ts-member" ng-model="member.tSize" type="text" value="" name="group_member{{$index+1}}_tSize" required></li>
+        </ol>
       </div>
       <div>
         <label>LEADER’S ID NUMBER:</label>
         <input type="text" value="" name="group_leader_id" ng-model="groupLeaderId" >
       </div>
-      <div>
+      <div ng-class="{'error':errors.length>0}">
         <label>LEADER’S E-MAIL:</label>
         <input type="email" value="" name="group_leader_email" ng-model="groupLeaderEmail" required>
+        <span class="error-msn" ng-show="errors.length>0">{{errors[0]}}</span>
       </div>
       <div>
         <label>LEADER’S PHONE NUMBER:</label>

@@ -4,7 +4,7 @@ angular.module('programApp')
   .controller('RegistrationCtrl', function ($scope,$rootScope,$location,$http) {
   //Validate if user answered correctly the answer
   if(!$rootScope.userOk){
-    $location.url('/registration');
+   $location.url('/registration');
   }else{
     $location.url('/registration_form');
   }
@@ -99,10 +99,10 @@ angular.module('programApp')
 
   //Registration Form
 
-  $scope.groupMembers = [{name:''},{name:''}];
+  $scope.groupMembers = [{name:'',tSize:''},{name:'',tSize:''}];
 
   $scope.addInput = function(){
-    $scope.groupMembers.push({name:''});
+    $scope.groupMembers.push({name:'',tSize:''});
   };
 
   //Save info
@@ -113,15 +113,20 @@ angular.module('programApp')
     $scope.msgs.splice(0,$scope.msgs.length);
     $scope.errors.splice(0,$scope.errors.length);
 
-
     $http.post('save.php',{
       'group_name':$scope.groupName,
       'group_leader':$scope.groupLeader,
+      'group_leader_tSize':$scope.groupLeader_tSize,
       'member_1':$scope.groupMembers['0'].name,
+      'member_1_tSize':$scope.groupMembers['0'].tSize,
       'member_2':($scope.groupMembers['1'])?$scope.groupMembers['1'].name:'',
+      'member_2_tSize':($scope.groupMembers['1'])?$scope.groupMembers['1'].tSize:'',
       'member_3':($scope.groupMembers['2'])?$scope.groupMembers['2'].name:'',
+      'member_3_tSize':($scope.groupMembers['2'])?$scope.groupMembers['2'].tSize:'',
       'member_4':($scope.groupMembers['3'])?$scope.groupMembers['3'].name:'',
+      'member_4_tSize':($scope.groupMembers['3'])?$scope.groupMembers['3'].tSize:'',
       'member_5':($scope.groupMembers['4'])?$scope.groupMembers['4'].name:'',
+      'member_5_tSize':($scope.groupMembers['4'])?$scope.groupMembers['4'].tSize:'',
       'group_leader_id':$scope.groupLeaderId,
       'group_leader_email':$scope.groupLeaderEmail,
       'group_leader_phone':$scope.groupLeaderPhone
@@ -135,8 +140,14 @@ angular.module('programApp')
 
       }
     }).error(function(data,status){
+      $rootScope.loading = false;
+      if(data.msg != ''){
+        //$scope.msgs.push(data.msg);
+        $rootScope.userRegistrated = true;
+      }else{
+        $scope.errors.push(data.error);
 
-      $scope.errors.push(status);
+      }
     });
   };
 
