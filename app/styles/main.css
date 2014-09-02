@@ -4,16 +4,16 @@ Project:
 Date: may 2014
 */
 
-/* line 226, icons/*.png */
+/* line 242, icons/*.png */
 
 .icons-sprite {
-  background: url('../images/icons-s6497a2430a.png') no-repeat;
+  background: url('../images/icons-s5aeba84417.png') no-repeat;
 }
 
-/* line 226, iconsRetina/*.png */
+/* line 242, iconsRetina/*.png */
 
 .iconsRetina-sprite {
-  background: url('../images/iconsRetina-s4e913e90e8.png') no-repeat;
+  background: url('../images/iconsRetina-s1a1790b076.png') no-repeat;
 }
 
 /*
@@ -1324,8 +1324,8 @@ button[disabled] {
   text-indent: -9999999px;
   display: block;
   float: right;
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1062px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -1716px;
   background-repeat: no-repeat;
   height: 36px;
   width: 34px;
@@ -1335,8 +1335,8 @@ button[disabled] {
   /* line 140, ../sass/_global.scss */
 
   .modal .close {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1114px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1788px;
     height: 36px;
     width: 34px;
     background-size: 286px auto;
@@ -1414,8 +1414,8 @@ a.disabled {
 .robot-life .r-body {
   top: 33px;
   left: 33px;
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1300px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -2054px;
   background-repeat: no-repeat;
   height: 82px;
   width: 82px;
@@ -1426,8 +1426,8 @@ a.disabled {
   /* line 196, ../sass/_global.scss */
 
   .robot-life .r-body {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1262px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1996px;
     height: 82px;
     width: 82px;
     background-size: 286px auto;
@@ -1443,8 +1443,8 @@ a.disabled {
   position: absolute;
   top: 21px;
   left: 20px;
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -996px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -1610px;
   background-repeat: no-repeat;
   height: 36px;
   width: 42px;
@@ -1454,8 +1454,8 @@ a.disabled {
   /* line 201, ../sass/_global.scss */
 
   .robot-life .r-body .center {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -996px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1610px;
     height: 36px;
     width: 42px;
     background-size: 286px auto;
@@ -1465,8 +1465,8 @@ a.disabled {
 /* line 212, ../sass/_global.scss */
 
 .robot-life .head {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1556px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -2462px;
   background-repeat: no-repeat;
   height: 18px;
   width: 42px;
@@ -1480,8 +1480,8 @@ a.disabled {
   /* line 212, ../sass/_global.scss */
 
   .robot-life .head {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1509px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -2395px;
     height: 18px;
     width: 42px;
     background-size: 286px auto;
@@ -1499,8 +1499,8 @@ a.disabled {
 /* line 224, ../sass/_global.scss */
 
 .robot-life .r-hand-left {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1150px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -1844px;
   background-repeat: no-repeat;
   height: 56px;
   width: 30px;
@@ -1512,8 +1512,8 @@ a.disabled {
   /* line 224, ../sass/_global.scss */
 
   .robot-life .r-hand-left {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1150px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1844px;
     height: 56px;
     width: 30px;
     background-size: 286px auto;
@@ -1523,8 +1523,8 @@ a.disabled {
 /* line 230, ../sass/_global.scss */
 
 .robot-life .r-hand-right {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1206px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -1920px;
   background-repeat: no-repeat;
   height: 56px;
   width: 30px;
@@ -1536,8 +1536,8 @@ a.disabled {
   /* line 230, ../sass/_global.scss */
 
   .robot-life .r-hand-right {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1206px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1920px;
     height: 56px;
     width: 30px;
     background-size: 286px auto;
@@ -1579,8 +1579,8 @@ a.disabled {
 /* line 258, ../sass/_global.scss */
 
 .robot-life .r-leg-left {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1640px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -2606px;
   background-repeat: no-repeat;
   height: 40px;
   width: 30px;
@@ -1591,8 +1591,8 @@ a.disabled {
   /* line 258, ../sass/_global.scss */
 
   .robot-life .r-leg-left {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1640px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -2606px;
     height: 40px;
     width: 30px;
     background-size: 286px auto;
@@ -1616,8 +1616,8 @@ a.disabled {
 /* line 271, ../sass/_global.scss */
 
 .robot-life .r-leg-right {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1600px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -2546px;
   background-repeat: no-repeat;
   height: 40px;
   width: 30px;
@@ -1628,8 +1628,8 @@ a.disabled {
   /* line 271, ../sass/_global.scss */
 
   .robot-life .r-leg-right {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1600px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -2546px;
     height: 40px;
     width: 30px;
     background-size: 286px auto;
@@ -1755,8 +1755,8 @@ a.disabled {
   .content-hand dt:after {
     position: absolute;
     top: -20px;
-    background-image: url('../images/icons-s5f3d4e7328.png');
-    background-position: 0 0;
+    background-image: url('../images/icons-s9b2d1a528b.png');
+    background-position: 0 -454px;
     background-repeat: no-repeat;
     height: 85px;
     width: 74px;
@@ -1767,8 +1767,8 @@ a.disabled {
   /* line 350, ../sass/_global.scss */
 
   .content-hand dt:after {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -478px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -972px;
     height: 85px;
     width: 74px;
     background-size: 286px auto;
@@ -1818,8 +1818,8 @@ a.disabled {
   /* line 376, ../sass/_global.scss */
 
   .content-hand.right dt:after {
-    background-image: url('../images/icons-s5f3d4e7328.png');
-    background-position: 0 -85px;
+    background-image: url('../images/icons-s9b2d1a528b.png');
+    background-position: 0 -559px;
     background-repeat: no-repeat;
     height: 85px;
     width: 74px;
@@ -1831,8 +1831,8 @@ a.disabled {
   /* line 376, ../sass/_global.scss */
 
   .content-hand.right dt:after {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -563px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1077px;
     height: 85px;
     width: 74px;
     background-size: 286px auto;
@@ -1849,8 +1849,8 @@ a.disabled {
   /* line 388, ../sass/_global.scss */
 
   .content-hand.left dt:after {
-    background-image: url('../images/icons-s5f3d4e7328.png');
-    background-position: 0 0;
+    background-image: url('../images/icons-s9b2d1a528b.png');
+    background-position: 0 -454px;
     background-repeat: no-repeat;
     height: 85px;
     width: 74px;
@@ -1862,8 +1862,8 @@ a.disabled {
   /* line 388, ../sass/_global.scss */
 
   .content-hand.left dt:after {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -478px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -972px;
     height: 85px;
     width: 74px;
     background-size: 286px auto;
@@ -1942,8 +1942,8 @@ header .menu-mobile:after {
 
 header .menu-mobile:before {
   left: -6px;
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1382px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -2208px;
   background-repeat: no-repeat;
   height: 40px;
   width: 12px;
@@ -1953,8 +1953,8 @@ header .menu-mobile:before {
   /* line 42, ../sass/_header.scss */
 
   header .menu-mobile:before {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1422px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -2268px;
     height: 40px;
     width: 12px;
     background-size: 286px auto;
@@ -1965,8 +1965,8 @@ header .menu-mobile:before {
 
 header .menu-mobile:after {
   right: -6px;
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1422px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -2268px;
   background-repeat: no-repeat;
   height: 40px;
   width: 12px;
@@ -1976,8 +1976,8 @@ header .menu-mobile:after {
   /* line 46, ../sass/_header.scss */
 
   header .menu-mobile:after {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1382px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -2208px;
     height: 40px;
     width: 12px;
     background-size: 286px auto;
@@ -2019,8 +2019,8 @@ header .logo .title {
   display: inline-block;
   text-indent: -999999px;
   margin: 7px 3px 0 0;
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -966px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -1560px;
   background-repeat: no-repeat;
   height: 30px;
   width: 58px;
@@ -2030,8 +2030,8 @@ header .logo .title {
   /* line 68, ../sass/_header.scss */
 
   header .logo .title {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -966px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1560px;
     height: 30px;
     width: 58px;
     background-size: 286px auto;
@@ -2043,8 +2043,8 @@ header .logo .title {
 
   header .logo .title {
     margin: 25px 10px 0 0;
-    background-image: url('../images/icons-s5f3d4e7328.png');
-    background-position: 0 -604px;
+    background-image: url('../images/icons-s9b2d1a528b.png');
+    background-position: 0 -1118px;
     background-repeat: no-repeat;
     height: 109px;
     width: 212px;
@@ -2055,8 +2055,8 @@ header .logo .title {
   /* line 68, ../sass/_header.scss */
 
   header .logo .title {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -648px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1182px;
     height: 109px;
     width: 212px;
     background-size: 286px auto;
@@ -2067,8 +2067,8 @@ header .logo .title {
 
 header .logo .robot {
   display: inline-block;
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -922px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -1496px;
   background-repeat: no-repeat;
   height: 44px;
   width: 40px;
@@ -2078,8 +2078,8 @@ header .logo .robot {
   /* line 79, ../sass/_header.scss */
 
   header .logo .robot {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -434px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -908px;
     height: 44px;
     width: 40px;
     background-size: 286px auto;
@@ -2265,8 +2265,8 @@ header nav a.active:after {
 /* line 178, ../sass/_header.scss */
 
 header nav a.active:before {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1462px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -2328px;
   background-repeat: no-repeat;
   height: 47px;
   width: 14px;
@@ -2277,8 +2277,8 @@ header nav a.active:before {
   /* line 178, ../sass/_header.scss */
 
   header nav a.active:before {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1462px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -2328px;
     height: 47px;
     width: 14px;
     background-size: 286px auto;
@@ -2288,8 +2288,8 @@ header nav a.active:before {
 /* line 183, ../sass/_header.scss */
 
 header nav a.active:after {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1509px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -2395px;
   background-repeat: no-repeat;
   height: 47px;
   width: 14px;
@@ -2300,8 +2300,8 @@ header nav a.active:after {
   /* line 183, ../sass/_header.scss */
 
   header nav a.active:after {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1527px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -2433px;
     height: 47px;
     width: 14px;
     background-size: 286px auto;
@@ -2323,8 +2323,8 @@ header nav a.active:after {
 /* line 201, ../sass/_header.scss */
 
 .ie header .logo .robot {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -763px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -1317px;
   background-repeat: no-repeat;
   height: 159px;
   width: 146px;
@@ -2334,8 +2334,8 @@ header nav a.active:after {
   /* line 201, ../sass/_header.scss */
 
   .ie header .logo .robot {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -807px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1381px;
     height: 159px;
     width: 146px;
     background-size: 286px auto;
@@ -2668,8 +2668,8 @@ footer img {
 
 .home .sponsored {
   text-indent: -9999999px;
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -713px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -1247px;
   background-repeat: no-repeat;
   height: 50px;
   width: 286px;
@@ -2680,8 +2680,8 @@ footer img {
   /* line 26, ../sass/views/_home.scss */
 
   .home .sponsored {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -757px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1311px;
     height: 50px;
     width: 286px;
     background-size: 286px auto;
@@ -2866,8 +2866,8 @@ footer img {
     position: absolute;
     top: -64px;
     left: -15px;
-    background-image: url('../images/icons-s5f3d4e7328.png');
-    background-position: 0 -170px;
+    background-image: url('../images/icons-s9b2d1a528b.png');
+    background-position: 0 -664px;
     background-repeat: no-repeat;
     height: 434px;
     width: 168px;
@@ -2878,15 +2878,96 @@ footer img {
   /* line 6, ../sass/views/_tournament_description.scss */
 
   .tournament-description:before {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 0;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -454px;
     height: 434px;
     width: 168px;
     background-size: 286px auto;
   }
 }
 
-/* line 19, ../sass/views/_tournament_description.scss */
+@media (min-width: 992px) {
+  /* line 20, ../sass/views/_tournament_description.scss */
+
+  .tournament-description:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 733px;
+    right: -15px;
+    background-image: url('../images/icons-s9b2d1a528b.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 434px;
+    width: 203px;
+  }
+}
+
+@media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 992px) and (min-device-pixel-ratio: 2) {
+  /* line 20, ../sass/views/_tournament_description.scss */
+
+  .tournament-description:after {
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 0;
+    height: 434px;
+    width: 203px;
+    background-size: 286px auto;
+  }
+}
+
+/* line 31, ../sass/views/_tournament_description.scss */
+
+.tournament-description h4 {
+  color: #fff;
+  background-color: #579fd2;
+  padding: 16px;
+  font-size: 1.1111111111em;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  width: 80%;
+  margin: 20px auto 40px;
+  position: relative;
+}
+
+/* line 40, ../sass/views/_tournament_description.scss */
+
+.tournament-description h4:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: -29px;
+  top: 14px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -2156px;
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 30px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 40, ../sass/views/_tournament_description.scss */
+
+  .tournament-description h4:after {
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -2156px;
+    height: 32px;
+    width: 30px;
+    background-size: 286px auto;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 31, ../sass/views/_tournament_description.scss */
+
+  .tournament-description h4 {
+    font-size: 1.7222222222em;
+    letter-spacing: 0em;
+    line-height: 0.7741935484em;
+    width: 425px;
+  }
+}
+
+/* line 53, ../sass/views/_tournament_description.scss */
 
 .tournament-description .intro {
   background-color: #f16c24;
@@ -2898,7 +2979,7 @@ footer img {
 }
 
 @media (min-width: 768px) {
-  /* line 19, ../sass/views/_tournament_description.scss */
+  /* line 53, ../sass/views/_tournament_description.scss */
 
   .tournament-description .intro {
     margin-bottom: 50px;
@@ -2907,7 +2988,7 @@ footer img {
 }
 
 @media (min-width: 992px) {
-  /* line 19, ../sass/views/_tournament_description.scss */
+  /* line 53, ../sass/views/_tournament_description.scss */
 
   .tournament-description .intro {
     width: 100%;
@@ -2916,7 +2997,7 @@ footer img {
 }
 
 @media (min-width: 1200px) {
-  /* line 19, ../sass/views/_tournament_description.scss */
+  /* line 53, ../sass/views/_tournament_description.scss */
 
   .tournament-description .intro {
     width: 116%;
@@ -2925,13 +3006,13 @@ footer img {
 }
 
 @media (min-width: 992px) {
-  /* line 39, ../sass/views/_tournament_description.scss */
+  /* line 73, ../sass/views/_tournament_description.scss */
 
   .tournament-description .intro:before {
     content: "";
     display: block;
-    background-image: url('../images/icons-s5f3d4e7328.png');
-    background-position: 0 -1098px;
+    background-image: url('../images/icons-s9b2d1a528b.png');
+    background-position: 0 -1772px;
     background-repeat: no-repeat;
     height: 52px;
     width: 52px;
@@ -2942,18 +3023,18 @@ footer img {
 }
 
 @media (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (-o-min-device-pixel-ratio: 3 / 2), (min-width: 992px) and (min-device-pixel-ratio: 2) {
-  /* line 39, ../sass/views/_tournament_description.scss */
+  /* line 73, ../sass/views/_tournament_description.scss */
 
   .tournament-description .intro:before {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1062px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1716px;
     height: 52px;
     width: 52px;
     background-size: 286px auto;
   }
 }
 
-/* line 51, ../sass/views/_tournament_description.scss */
+/* line 85, ../sass/views/_tournament_description.scss */
 
 .tournament-description .intro h2 {
   font-size: 20px;
@@ -2962,7 +3043,7 @@ footer img {
 }
 
 @media (min-width: 768px) {
-  /* line 51, ../sass/views/_tournament_description.scss */
+  /* line 85, ../sass/views/_tournament_description.scss */
 
   .tournament-description .intro h2 {
     font-size: 33px;
@@ -2970,7 +3051,7 @@ footer img {
   }
 }
 
-/* line 60, ../sass/views/_tournament_description.scss */
+/* line 94, ../sass/views/_tournament_description.scss */
 
 .tournament-description .intro p {
   font-size: 18px;
@@ -2979,7 +3060,7 @@ footer img {
 }
 
 @media (min-width: 768px) {
-  /* line 60, ../sass/views/_tournament_description.scss */
+  /* line 94, ../sass/views/_tournament_description.scss */
 
   .tournament-description .intro p {
     font-size: 24px;
@@ -2988,47 +3069,47 @@ footer img {
 }
 
 @media (min-width: 768px) {
-  /* line 72, ../sass/views/_tournament_description.scss */
+  /* line 106, ../sass/views/_tournament_description.scss */
 
   .tournament-description .content-hand {
     width: 762px;
   }
 }
 
-/* line 77, ../sass/views/_tournament_description.scss */
+/* line 111, ../sass/views/_tournament_description.scss */
 
 .tournament-description .content-hand dt {
   margin-bottom: 10px;
 }
 
-/* line 80, ../sass/views/_tournament_description.scss */
+/* line 114, ../sass/views/_tournament_description.scss */
 
 .tournament-description .content-hand dt:after {
   top: 10px;
   z-index: -1;
 }
 
-/* line 84, ../sass/views/_tournament_description.scss */
+/* line 118, ../sass/views/_tournament_description.scss */
 
 .tournament-description .content-hand dt:before {
   top: 42px;
   z-index: -1;
 }
 
-/* line 89, ../sass/views/_tournament_description.scss */
+/* line 122, ../sass/views/_tournament_description.scss */
 
 .tournament-description .content-hand dd {
   margin-bottom: 20px;
 }
 
-/* line 93, ../sass/views/_tournament_description.scss */
+/* line 126, ../sass/views/_tournament_description.scss */
 
 .tournament-description .content-hand.right {
   text-align: left;
 }
 
 @media (min-width: 768px) {
-  /* line 93, ../sass/views/_tournament_description.scss */
+  /* line 126, ../sass/views/_tournament_description.scss */
 
   .tournament-description .content-hand.right {
     text-align: right;
@@ -3036,33 +3117,33 @@ footer img {
   }
 }
 
-/* line 101, ../sass/views/_tournament_description.scss */
+/* line 134, ../sass/views/_tournament_description.scss */
 
 .tournament-description .content-hand.right dt:before {
   right: -114%;
 }
 
-/* line 105, ../sass/views/_tournament_description.scss */
+/* line 138, ../sass/views/_tournament_description.scss */
 
 .tournament-description .content-hand.left {
   text-align: left;
 }
 
 @media (min-width: 768px) {
-  /* line 105, ../sass/views/_tournament_description.scss */
+  /* line 138, ../sass/views/_tournament_description.scss */
 
   .tournament-description .content-hand.left {
     margin-left: 5%;
   }
 }
 
-/* line 111, ../sass/views/_tournament_description.scss */
+/* line 144, ../sass/views/_tournament_description.scss */
 
 .tournament-description .content-hand.left dt:before {
   left: -114%;
 }
 
-/* line 116, ../sass/views/_tournament_description.scss */
+/* line 149, ../sass/views/_tournament_description.scss */
 
 .tournament-description dt,
 .tournament-description dd {
@@ -3070,7 +3151,7 @@ footer img {
 }
 
 @media (min-width: 768px) {
-  /* line 116, ../sass/views/_tournament_description.scss */
+  /* line 149, ../sass/views/_tournament_description.scss */
 
   .tournament-description dt,
   .tournament-description dd {
@@ -3078,20 +3159,20 @@ footer img {
   }
 }
 
-/* line 123, ../sass/views/_tournament_description.scss */
+/* line 156, ../sass/views/_tournament_description.scss */
 
 .tournament-description dt {
   color: #f16c24;
   font-family: 'ul',sans-serif;
 }
 
-/* line 128, ../sass/views/_tournament_description.scss */
+/* line 161, ../sass/views/_tournament_description.scss */
 
 .tournament-description dd {
   color: #579fd2;
 }
 
-/* line 132, ../sass/views/_tournament_description.scss */
+/* line 165, ../sass/views/_tournament_description.scss */
 
 .tournament-description .comment {
   font-size: 22px;
@@ -3104,7 +3185,7 @@ footer img {
 }
 
 @media (min-width: 768px) {
-  /* line 132, ../sass/views/_tournament_description.scss */
+  /* line 165, ../sass/views/_tournament_description.scss */
 
   .tournament-description .comment {
     width: 400px;
@@ -3112,7 +3193,7 @@ footer img {
   }
 }
 
-/* line 144, ../sass/views/_tournament_description.scss */
+/* line 177, ../sass/views/_tournament_description.scss */
 
 .tournament-description .comment:after {
   content: "";
@@ -3120,23 +3201,78 @@ footer img {
   position: absolute;
   right: 10px;
   bottom: -30px;
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1262px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -1996px;
   background-repeat: no-repeat;
   height: 38px;
   width: 38px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
-  /* line 144, ../sass/views/_tournament_description.scss */
+  /* line 177, ../sass/views/_tournament_description.scss */
 
   .tournament-description .comment:after {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1344px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -2098px;
     height: 38px;
     width: 38px;
     background-size: 286px auto;
   }
+}
+
+/* line 189, ../sass/views/_tournament_description.scss */
+
+.tournament-description .profiles dl.content-hand dt:before {
+  top: 9px;
+}
+
+/* line 192, ../sass/views/_tournament_description.scss */
+
+.tournament-description .profiles dl.content-hand dt:after {
+  top: -26px;
+}
+
+/* line 196, ../sass/views/_tournament_description.scss */
+
+.tournament-description .profiles dt {
+  font-size: 1.3888888889em;
+  letter-spacing: 0em;
+  line-height: 1.12em;
+  color: #579fd2;
+  font-family: 'ub',sans-serif;
+}
+
+/* line 202, ../sass/views/_tournament_description.scss */
+
+.tournament-description .profiles dd {
+  color: #f16c24;
+}
+
+/* line 205, ../sass/views/_tournament_description.scss */
+
+.tournament-description .profiles dd ul {
+  padding-left: 10px;
+}
+
+/* line 208, ../sass/views/_tournament_description.scss */
+
+.tournament-description .profiles dd ul li {
+  list-style: none;
+  padding-left: 20px;
+  position: relative;
+}
+
+/* line 212, ../sass/views/_tournament_description.scss */
+
+.tournament-description .profiles dd ul li:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #f16c24;
+  position: absolute;
+  left: 0;
+  top: 8px;
 }
 
 /* line 1, ../sass/views/_registration.scss */
@@ -3179,8 +3315,8 @@ footer img {
 /* line 18, ../sass/views/_registration.scss */
 
 .registration .wait h3:before {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1032px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -1666px;
   background-repeat: no-repeat;
   height: 30px;
   width: 70px;
@@ -3191,8 +3327,8 @@ footer img {
   /* line 18, ../sass/views/_registration.scss */
 
   .registration .wait h3:before {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1032px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1666px;
     height: 30px;
     width: 70px;
     background-size: 286px auto;
@@ -3202,8 +3338,8 @@ footer img {
 /* line 22, ../sass/views/_registration.scss */
 
 .registration .wait h3:after {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -1574px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -2500px;
   background-repeat: no-repeat;
   height: 26px;
   width: 30px;
@@ -3214,8 +3350,8 @@ footer img {
   /* line 22, ../sass/views/_registration.scss */
 
   .registration .wait h3:after {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -1574px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -2500px;
     height: 26px;
     width: 30px;
     background-size: 286px auto;
@@ -3532,8 +3668,8 @@ footer img {
   content: "";
   position: absolute;
   top: -25px;
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 0;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -454px;
   background-repeat: no-repeat;
   height: 85px;
   width: 74px;
@@ -3553,8 +3689,8 @@ footer img {
 
   .registration-form .register-ok:after,
   .registration-form .register-ok h4:after {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -478px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -972px;
     height: 85px;
     width: 74px;
     background-size: 286px auto;
@@ -3570,8 +3706,8 @@ footer img {
 /* line 163, ../sass/views/_registration_form.scss */
 
 .registration-form .register-ok:after {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 0;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -454px;
   background-repeat: no-repeat;
   height: 85px;
   width: 74px;
@@ -3582,8 +3718,8 @@ footer img {
   /* line 163, ../sass/views/_registration_form.scss */
 
   .registration-form .register-ok:after {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -478px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -972px;
     height: 85px;
     width: 74px;
     background-size: 286px auto;
@@ -3607,8 +3743,8 @@ footer img {
 /* line 176, ../sass/views/_registration_form.scss */
 
 .registration-form .register-ok h4:after {
-  background-image: url('../images/icons-s5f3d4e7328.png');
-  background-position: 0 -85px;
+  background-image: url('../images/icons-s9b2d1a528b.png');
+  background-position: 0 -559px;
   background-repeat: no-repeat;
   height: 85px;
   width: 74px;
@@ -3619,8 +3755,8 @@ footer img {
   /* line 176, ../sass/views/_registration_form.scss */
 
   .registration-form .register-ok h4:after {
-    background-image: url('../images/iconsRetina-sb40f2afd73.png');
-    background-position: 0 -563px;
+    background-image: url('../images/iconsRetina-sb0da0fba09.png');
+    background-position: 0 -1077px;
     height: 85px;
     width: 74px;
     background-size: 286px auto;

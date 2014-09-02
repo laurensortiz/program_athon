@@ -16,6 +16,40 @@
 
 
   }
+
+  &:after{
+    @media (min-width: $screen-md) {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 733px;
+      right: -15px;
+      @include retina-sprite(half_robot_right);
+    }
+  }
+
+  h4{
+    color: #fff;
+    background-color: $blue;
+    padding:16px;
+    @include font-size(20,24,0,18);
+    width: 80%;
+    margin: 20px auto 40px;
+    position: relative;
+
+    &:after{
+      content: "";
+      display: inline-block;
+      position: absolute;
+      right: -29px;
+      top: 14px;
+      @include retina-sprite(title_blue);
+    }
+    @media (min-width: $screen-sm) {
+      @include font-size(31,24,0,18);
+      width: 425px;
+    }
+  }
   .intro{
     background-color: $orange;
     padding: 5px 15px;
@@ -84,7 +118,6 @@
     dt:before{
       top: 42px;
       z-index: -1;
-
     }
     dd{
       margin-bottom: 20px;
@@ -150,4 +183,45 @@
       @include retina-sprite(comment_blue);
     }
   }
+
+  .profiles{
+    dl.content-hand dt{
+      &:before{
+        top: 9px;
+      }
+      &:after{
+        top: -26px;
+      }
+    }
+    dt{
+      @include font-size(25,28,0,18);
+      color: $blue;
+      font-family: 'ub',sans-serif;
+
+    }
+    dd{
+      color: $orange;
+
+      ul{
+        padding-left: 10px;
+
+        li{
+          list-style: none;
+          padding-left: 20px;
+          position: relative;
+          &:before{
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: $orange;
+            position:  absolute;
+            left: 0;
+            top: 8px;
+          }
+        }
+      }
+    }
+  }
+
 }

@@ -74,8 +74,9 @@
   font-style: normal;
 }
 // Set the font-size
-@mixin font-size($fontSize:12,$lineHeight:auto,$vaValue:auto){
-  $sizeToEm : ($fontSize/12)+em;
+@mixin font-size($fontSize:12,$lineHeight:auto,$vaValue:auto, $fontBase:12){
+
+  $sizeToEm : ($fontSize/$fontBase)+em;
   $va : ($vaValue/1000)+em;
   font-size: $sizeToEm;
   letter-spacing: $va;
